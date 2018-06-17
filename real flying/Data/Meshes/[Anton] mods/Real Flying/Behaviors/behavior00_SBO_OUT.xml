@@ -1,0 +1,1229 @@
+<hkobject><!-- |FILE#| NAME: Behavior00.hkb -->
+		<hkobject name="#0051" class="hkRootLevelContainer" signature="0x2772c11e">
+			<hkparam name="namedVariants" numelements="1">
+				<hkobject>
+					<hkparam name="name">hkbBehaviorGraph</hkparam>
+					<hkparam name="className">hkbBehaviorGraph</hkparam>
+					<hkparam name="variant">#0083</hkparam>
+				</hkobject>
+			</hkparam>
+		</hkobject>
+
+			<hkobject name="#0083" class="hkbBehaviorGraph" signature="0xb1218f86">
+			<hkparam name="variableBindingSet">null</hkparam>
+			<hkparam name="userData">0</hkparam>
+			<hkparam name="name">Behavior00.hkb</hkparam>
+			<hkparam name="variableMode">VARIABLE_MODE_DISCARD_WHEN_INACTIVE</hkparam>
+			<hkparam name="rootGenerator">#0082</hkparam>
+			<hkparam name="data">#0054</hkparam>
+		</hkobject>
+</hkobject>
+	#
+	==|><hkobject><!-- |BEHAVIOR-|>| NAME: StateMachine00 -->
+				<hkobject name="#0082" class="hkbStateMachine" signature="0x816c1dcb">
+					<hkparam name="variableBindingSet">null</hkparam>
+					<hkparam name="userData">0</hkparam>
+					<hkparam name="name">StateMachine00</hkparam>
+					<hkparam name="eventToSendWhenStateOrTransitionChanges">
+						<hkobject>
+							<hkparam name="id">-1</hkparam>
+							<hkparam name="payload">null</hkparam>
+						</hkobject>
+					</hkparam>
+				<hkparam name="startStateChooser">null</hkparam>
+					<hkparam name="startStateId">0</hkparam><!-- STATE: Default -->
+					<hkparam name="returnToPreviousStateEventId">-1</hkparam>
+					<hkparam name="randomTransitionEventId">-1</hkparam>
+					<hkparam name="transitionToNextHigherStateEventId">-1</hkparam>
+					<hkparam name="transitionToNextLowerStateEventId">-1</hkparam>
+					<hkparam name="syncVariableIndex">-1</hkparam>
+					<hkparam name="wrapAroundStateId">false</hkparam>
+					<hkparam name="maxSimultaneousTransitions">32</hkparam>
+					<hkparam name="startStateMode">START_STATE_MODE_DEFAULT</hkparam>
+					<hkparam name="selfTransitionMode">SELF_TRANSITION_MODE_NO_TRANSITION</hkparam>
+					<hkparam name="states" numelements="7">
+						#0081 #0078 #0074 #0071 #0068 #0064 #0060
+					</hkparam>
+					<hkparam name="wildcardTransitions">#0055</hkparam>
+				</hkobject>
+		
+				<hkobject><!-- |[TRANSITIONS-=>]| -->
+				<hkobject name="#0055" class="hkbStateMachineTransitionInfoArray" signature="0xe397b11e">
+					<hkparam name="transitions" numelements="1">
+						<hkobject>
+							<hkparam name="triggerInterval">
+								<hkobject>
+									<hkparam name="enterEventId">-1</hkparam>
+									<hkparam name="exitEventId">-1</hkparam>
+									<hkparam name="enterTime">0.000000</hkparam>
+									<hkparam name="exitTime">0.000000</hkparam>
+								</hkobject>
+							</hkparam>
+							<hkparam name="initiateInterval">
+								<hkobject>
+									<hkparam name="enterEventId">-1</hkparam>
+									<hkparam name="exitEventId">-1</hkparam>
+									<hkparam name="enterTime">0.000000</hkparam>
+									<hkparam name="exitTime">0.000000</hkparam>
+								</hkobject>
+							</hkparam>
+							<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+							<hkparam name="condition">null</hkparam>
+							<hkparam name="eventId">0</hkparam><!-- RestartEffect -->
+							<hkparam name="toStateId">0</hkparam><!-- STATE: Default -->
+							<hkparam name="fromNestedStateId">0</hkparam>
+							<hkparam name="toNestedStateId">0</hkparam>
+							<hkparam name="priority">0</hkparam>
+							<hkparam name="flags">FLAG_IS_LOCAL_WILDCARD</hkparam>
+						</hkobject>
+					</hkparam>
+				</hkobject>
+		
+				<hkobject><!-- |[TRANSITION_EFFECT~~]| NAME: DefaultBlendingTransitionEffect -->
+				<hkobject name="#0056" class="hkbBlendingTransitionEffect" signature="0xfd8584fe">
+					<hkparam name="variableBindingSet">null</hkparam>
+					<hkparam name="userData">0</hkparam>
+					<hkparam name="name">DefaultBlendingTransitionEffect</hkparam>
+					<hkparam name="selfTransitionMode">SELF_TRANSITION_MODE_CONTINUE_IF_CYCLIC_BLEND_IF_ACYCLIC</hkparam>
+					<hkparam name="eventMode">EVENT_MODE_DEFAULT</hkparam>
+					<hkparam name="duration">0.500000</hkparam>
+					<hkparam name="toGeneratorStartTimeFraction">0.000000</hkparam>
+					<hkparam name="flags">0</hkparam>
+					<hkparam name="endMode">END_MODE_NONE</hkparam>
+					<hkparam name="blendCurve">BLEND_CURVE_SMOOTH</hkparam>
+				</hkobject>
+		
+				</hkobject>
+		
+				</hkobject>
+		</hkobject>
+		####
+		<hkobject><!-- BEHAVIOR CHILDREN BEGIN -->
+			||
+			==|><hkobject><!-- |[STATE]| NAME: Default STATE ID: 0 -->
+						<hkobject name="#0081" class="hkbStateMachineStateInfo" signature="0xed7f9d0">
+							<hkparam name="variableBindingSet">null</hkparam>
+							<hkparam name="listeners" numelements="0"></hkparam>
+							<hkparam name="enterNotifyEvents">null</hkparam>
+							<hkparam name="exitNotifyEvents">null</hkparam>
+							<hkparam name="transitions">#0080</hkparam>
+							<hkparam name="generator">#0079</hkparam>
+							<hkparam name="name">Default</hkparam>
+							<hkparam name="stateId">0</hkparam>
+							<hkparam name="probability">1.000000</hkparam>
+						<hkparam name="enable">true</hkparam>
+						</hkobject>
+				
+						<hkobject><!-- |[TRANSITIONS-=>]| -->
+						<hkobject name="#0080" class="hkbStateMachineTransitionInfoArray" signature="0xe397b11e">
+							<hkparam name="transitions" numelements="2">
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">1</hkparam><!-- JumpUp -->
+									<hkparam name="toStateId">1</hkparam><!-- STATE: Open -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+										<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">3</hkparam><!-- RealFlying_Forward -->
+									<hkparam name="toStateId">3</hkparam><!-- STATE: Glide -->
+								<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+							</hkparam>
+						</hkobject>
+				
+						<hkobject><!-- |[TRANSITION_EFFECT~~]| NAME: DefaultBlendingTransitionEffect -->
+						<hkobject name="#0056" class="hkbBlendingTransitionEffect" signature="0xfd8584fe">
+							<hkparam name="variableBindingSet">null</hkparam>
+						<hkparam name="userData">0</hkparam>
+							<hkparam name="name">DefaultBlendingTransitionEffect</hkparam>
+							<hkparam name="selfTransitionMode">SELF_TRANSITION_MODE_CONTINUE_IF_CYCLIC_BLEND_IF_ACYCLIC</hkparam>
+							<hkparam name="eventMode">EVENT_MODE_DEFAULT</hkparam>
+							<hkparam name="duration">0.500000</hkparam>
+							<hkparam name="toGeneratorStartTimeFraction">0.000000</hkparam>
+							<hkparam name="flags">0</hkparam>
+							<hkparam name="endMode">END_MODE_NONE</hkparam>
+							<hkparam name="blendCurve">BLEND_CURVE_SMOOTH</hkparam>
+						</hkobject>
+				
+						</hkobject>
+				
+						</hkobject>
+				</hkobject>
+					#
+					==|><hkobject><!-- |(CLIP)| NAME: DefaultClip -->
+								<hkobject name="#0079" class="hkbClipGenerator" signature="0x333b85b9">
+									<hkparam name="variableBindingSet">null</hkparam>
+									<hkparam name="userData">0</hkparam>
+									<hkparam name="name">DefaultClip</hkparam>
+									<hkparam name="animationName">Default.hkx</hkparam>
+									<hkparam name="triggers">null</hkparam>
+									<hkparam name="cropStartAmountLocalTime">0.000000</hkparam>
+									<hkparam name="cropEndAmountLocalTime">0.000000</hkparam>
+									<hkparam name="startTime">0.000000</hkparam>
+									<hkparam name="playbackSpeed">1.000000</hkparam>
+									<hkparam name="enforcedDuration">0.000000</hkparam>
+									<hkparam name="userControlledTimeFraction">0.000000</hkparam>
+									<hkparam name="animationBindingIndex">-1</hkparam>
+									<hkparam name="mode">MODE_SINGLE_PLAY</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+						</hkobject>
+
+			||
+			==|><hkobject><!-- |[STATE]| NAME: Open STATE ID: 1 -->
+						<hkobject name="#0078" class="hkbStateMachineStateInfo" signature="0xed7f9d0">
+							<hkparam name="variableBindingSet">null</hkparam>
+							<hkparam name="listeners" numelements="0"></hkparam>
+							<hkparam name="enterNotifyEvents">null</hkparam>
+							<hkparam name="exitNotifyEvents">null</hkparam>
+							<hkparam name="transitions">#0077</hkparam>
+							<hkparam name="generator">#0076</hkparam>
+							<hkparam name="name">Open</hkparam>
+							<hkparam name="stateId">1</hkparam>
+							<hkparam name="probability">1.000000</hkparam>
+						<hkparam name="enable">true</hkparam>
+						</hkobject>
+				
+						<hkobject><!-- |[TRANSITIONS-=>]| -->
+						<hkobject name="#0077" class="hkbStateMachineTransitionInfoArray" signature="0xe397b11e">
+							<hkparam name="transitions" numelements="1">
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">2</hkparam><!-- GoNextClip -->
+									<hkparam name="toStateId">2</hkparam><!-- STATE: GlideShort -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+							</hkparam>
+						</hkobject>
+				
+						<hkobject><!-- |[TRANSITION_EFFECT~~]| NAME: DefaultBlendingTransitionEffect -->
+						<hkobject name="#0056" class="hkbBlendingTransitionEffect" signature="0xfd8584fe">
+							<hkparam name="variableBindingSet">null</hkparam>
+						<hkparam name="userData">0</hkparam>
+							<hkparam name="name">DefaultBlendingTransitionEffect</hkparam>
+							<hkparam name="selfTransitionMode">SELF_TRANSITION_MODE_CONTINUE_IF_CYCLIC_BLEND_IF_ACYCLIC</hkparam>
+							<hkparam name="eventMode">EVENT_MODE_DEFAULT</hkparam>
+							<hkparam name="duration">0.500000</hkparam>
+							<hkparam name="toGeneratorStartTimeFraction">0.000000</hkparam>
+							<hkparam name="flags">0</hkparam>
+							<hkparam name="endMode">END_MODE_NONE</hkparam>
+							<hkparam name="blendCurve">BLEND_CURVE_SMOOTH</hkparam>
+						</hkobject>
+				
+						</hkobject>
+				
+						</hkobject>
+				</hkobject>
+					#
+					==|><hkobject><!-- |(CLIP)| NAME: OpenClip -->
+								<hkobject name="#0076" class="hkbClipGenerator" signature="0x333b85b9">
+									<hkparam name="variableBindingSet">null</hkparam>
+									<hkparam name="userData">0</hkparam>
+									<hkparam name="name">OpenClip</hkparam>
+									<hkparam name="animationName">Open.hkx</hkparam>
+									<hkparam name="triggers">#0075</hkparam>
+									<hkparam name="cropStartAmountLocalTime">0.000000</hkparam>
+									<hkparam name="cropEndAmountLocalTime">0.000000</hkparam>
+									<hkparam name="startTime">0.000000</hkparam>
+									<hkparam name="playbackSpeed">1.000000</hkparam>
+									<hkparam name="enforcedDuration">0.000000</hkparam>
+									<hkparam name="userControlledTimeFraction">0.000000</hkparam>
+									<hkparam name="animationBindingIndex">-1</hkparam>
+									<hkparam name="mode">MODE_SINGLE_PLAY</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+						
+								<hkobject><!-- DATA -->
+								<hkobject name="#0075" class="hkbClipTriggerArray" signature="0x59c23a0f">
+									<hkparam name="triggers" numelements="2">
+										<hkobject>
+											<hkparam name="localTime">0.333333</hkparam>
+											<hkparam name="event">
+												<hkobject>
+													<hkparam name="id">9</hkparam><!-- SoundPlay._Anton_RealFlying_WingsSwing -->
+													<hkparam name="payload">null</hkparam>
+												</hkobject>
+											</hkparam>
+											<hkparam name="relativeToEndOfClip">false</hkparam>
+											<hkparam name="acyclic">false</hkparam>
+											<hkparam name="isAnnotation">false</hkparam>
+										</hkobject>
+										<hkobject>
+											<hkparam name="localTime">0.533000</hkparam>
+											<hkparam name="event">
+												<hkobject>
+													<hkparam name="id">2</hkparam><!-- GoNextClip -->
+													<hkparam name="payload">null</hkparam>
+												</hkobject>
+											</hkparam>
+											<hkparam name="relativeToEndOfClip">false</hkparam>
+											<hkparam name="acyclic">false</hkparam>
+											<hkparam name="isAnnotation">false</hkparam>
+										</hkobject>
+									</hkparam>
+								</hkobject>
+						
+								</hkobject>
+						</hkobject>
+
+			||
+			==|><hkobject><!-- |[STATE]| NAME: GlideShort STATE ID: 2 -->
+						<hkobject name="#0074" class="hkbStateMachineStateInfo" signature="0xed7f9d0">
+							<hkparam name="variableBindingSet">null</hkparam>
+							<hkparam name="listeners" numelements="0"></hkparam>
+							<hkparam name="enterNotifyEvents">null</hkparam>
+							<hkparam name="exitNotifyEvents">null</hkparam>
+							<hkparam name="transitions">#0073</hkparam>
+							<hkparam name="generator">#0072</hkparam>
+							<hkparam name="name">GlideShort</hkparam>
+							<hkparam name="stateId">2</hkparam>
+							<hkparam name="probability">1.000000</hkparam>
+						<hkparam name="enable">true</hkparam>
+						</hkobject>
+				
+						<hkobject><!-- |[TRANSITIONS-=>]| -->
+						<hkobject name="#0073" class="hkbStateMachineTransitionInfoArray" signature="0xe397b11e">
+							<hkparam name="transitions" numelements="3">
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+										<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">3</hkparam><!-- RealFlying_Forward -->
+									<hkparam name="toStateId">3</hkparam><!-- STATE: Glide -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+										<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">6</hkparam><!-- IdleForceDefaultState -->
+									<hkparam name="toStateId">4</hkparam><!-- STATE: Close -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">7</hkparam><!-- MTState -->
+									<hkparam name="toStateId">4</hkparam><!-- STATE: Close -->
+								<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+							</hkparam>
+						</hkobject>
+				
+						<hkobject><!-- |[TRANSITION_EFFECT~~]| NAME: DefaultBlendingTransitionEffect -->
+						<hkobject name="#0056" class="hkbBlendingTransitionEffect" signature="0xfd8584fe">
+							<hkparam name="variableBindingSet">null</hkparam>
+						<hkparam name="userData">0</hkparam>
+							<hkparam name="name">DefaultBlendingTransitionEffect</hkparam>
+							<hkparam name="selfTransitionMode">SELF_TRANSITION_MODE_CONTINUE_IF_CYCLIC_BLEND_IF_ACYCLIC</hkparam>
+							<hkparam name="eventMode">EVENT_MODE_DEFAULT</hkparam>
+							<hkparam name="duration">0.500000</hkparam>
+							<hkparam name="toGeneratorStartTimeFraction">0.000000</hkparam>
+							<hkparam name="flags">0</hkparam>
+							<hkparam name="endMode">END_MODE_NONE</hkparam>
+							<hkparam name="blendCurve">BLEND_CURVE_SMOOTH</hkparam>
+						</hkobject>
+				
+						</hkobject>
+				
+						</hkobject>
+				</hkobject>
+				#
+					==|><hkobject><!-- |(CLIP)| NAME: GlideShortClip -->
+								<hkobject name="#0072" class="hkbClipGenerator" signature="0x333b85b9">
+									<hkparam name="variableBindingSet">null</hkparam>
+									<hkparam name="userData">0</hkparam>
+									<hkparam name="name">GlideShortClip</hkparam>
+									<hkparam name="animationName">GlideShort.hkx</hkparam>
+									<hkparam name="triggers">null</hkparam>
+									<hkparam name="cropStartAmountLocalTime">0.000000</hkparam>
+									<hkparam name="cropEndAmountLocalTime">0.000000</hkparam>
+									<hkparam name="startTime">0.000000</hkparam>
+									<hkparam name="playbackSpeed">1.000000</hkparam>
+									<hkparam name="enforcedDuration">0.000000</hkparam>
+									<hkparam name="userControlledTimeFraction">0.000000</hkparam>
+									<hkparam name="animationBindingIndex">-1</hkparam>
+									<hkparam name="mode">MODE_LOOPING</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+						</hkobject>
+
+			||
+			==|><hkobject><!-- |[STATE]| NAME: Glide STATE ID: 3 -->
+						<hkobject name="#0071" class="hkbStateMachineStateInfo" signature="0xed7f9d0">
+							<hkparam name="variableBindingSet">null</hkparam>
+							<hkparam name="listeners" numelements="0"></hkparam>
+							<hkparam name="enterNotifyEvents">null</hkparam>
+							<hkparam name="exitNotifyEvents">null</hkparam>
+							<hkparam name="transitions">#0070</hkparam>
+							<hkparam name="generator">#0069</hkparam>
+							<hkparam name="name">Glide</hkparam>
+							<hkparam name="stateId">3</hkparam>
+							<hkparam name="probability">1.000000</hkparam>
+						<hkparam name="enable">true</hkparam>
+						</hkobject>
+				
+						<hkobject><!-- |[TRANSITIONS-=>]| -->
+						<hkobject name="#0070" class="hkbStateMachineTransitionInfoArray" signature="0xe397b11e">
+							<hkparam name="transitions" numelements="5">
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+										<hkparam name="enterTime">0.000000</hkparam>
+										<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+								</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">4</hkparam><!-- RealFlying_ForwardUp -->
+									<hkparam name="toStateId">5</hkparam><!-- STATE: Flap -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">5</hkparam><!-- RealFlying_ForwardDown -->
+									<hkparam name="toStateId">2</hkparam><!-- STATE: GlideShort -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+										<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">6</hkparam><!-- IdleForceDefaultState -->
+									<hkparam name="toStateId">4</hkparam><!-- STATE: Close -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">7</hkparam><!-- MTState -->
+									<hkparam name="toStateId">4</hkparam><!-- STATE: Close -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">11</hkparam><!-- RealFlying_ForwardAlt -->
+									<hkparam name="toStateId">6</hkparam><!-- STATE: FlapShort -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+							</hkparam>
+						</hkobject>
+				
+						<hkobject><!-- |[TRANSITION_EFFECT~~]| NAME: DefaultBlendingTransitionEffect -->
+						<hkobject name="#0056" class="hkbBlendingTransitionEffect" signature="0xfd8584fe">
+							<hkparam name="variableBindingSet">null</hkparam>
+						<hkparam name="userData">0</hkparam>
+							<hkparam name="name">DefaultBlendingTransitionEffect</hkparam>
+							<hkparam name="selfTransitionMode">SELF_TRANSITION_MODE_CONTINUE_IF_CYCLIC_BLEND_IF_ACYCLIC</hkparam>
+							<hkparam name="eventMode">EVENT_MODE_DEFAULT</hkparam>
+							<hkparam name="duration">0.500000</hkparam>
+							<hkparam name="toGeneratorStartTimeFraction">0.000000</hkparam>
+							<hkparam name="flags">0</hkparam>
+							<hkparam name="endMode">END_MODE_NONE</hkparam>
+							<hkparam name="blendCurve">BLEND_CURVE_SMOOTH</hkparam>
+						</hkobject>
+				
+						</hkobject>
+				
+						</hkobject>
+				</hkobject>
+					#
+					==|><hkobject><!-- |(CLIP)| NAME: GlideClip -->
+								<hkobject name="#0069" class="hkbClipGenerator" signature="0x333b85b9">
+									<hkparam name="variableBindingSet">null</hkparam>
+									<hkparam name="userData">0</hkparam>
+									<hkparam name="name">GlideClip</hkparam>
+									<hkparam name="animationName">Glide.hkx</hkparam>
+									<hkparam name="triggers">null</hkparam>
+									<hkparam name="cropStartAmountLocalTime">0.000000</hkparam>
+									<hkparam name="cropEndAmountLocalTime">0.000000</hkparam>
+									<hkparam name="startTime">0.000000</hkparam>
+									<hkparam name="playbackSpeed">1.000000</hkparam>
+									<hkparam name="enforcedDuration">0.000000</hkparam>
+									<hkparam name="userControlledTimeFraction">0.000000</hkparam>
+									<hkparam name="animationBindingIndex">-1</hkparam>
+									<hkparam name="mode">MODE_LOOPING</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+						</hkobject>
+
+			||
+			==|><hkobject><!-- |[STATE]| NAME: Close STATE ID: 4 -->
+						<hkobject name="#0068" class="hkbStateMachineStateInfo" signature="0xed7f9d0">
+							<hkparam name="variableBindingSet">null</hkparam>
+							<hkparam name="listeners" numelements="0"></hkparam>
+							<hkparam name="enterNotifyEvents">null</hkparam>
+							<hkparam name="exitNotifyEvents">null</hkparam>
+							<hkparam name="transitions">#0067</hkparam>
+							<hkparam name="generator">#0066</hkparam>
+							<hkparam name="name">Close</hkparam>
+							<hkparam name="stateId">4</hkparam>
+							<hkparam name="probability">1.000000</hkparam>
+						<hkparam name="enable">true</hkparam>
+						</hkobject>
+				
+						<hkobject><!-- |[TRANSITIONS-=>]| -->
+						<hkobject name="#0067" class="hkbStateMachineTransitionInfoArray" signature="0xe397b11e">
+							<hkparam name="transitions" numelements="1">
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">2</hkparam><!-- GoNextClip -->
+									<hkparam name="toStateId">0</hkparam><!-- STATE: Default -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+							</hkparam>
+						</hkobject>
+				
+						<hkobject><!-- |[TRANSITION_EFFECT~~]| NAME: DefaultBlendingTransitionEffect -->
+						<hkobject name="#0056" class="hkbBlendingTransitionEffect" signature="0xfd8584fe">
+							<hkparam name="variableBindingSet">null</hkparam>
+						<hkparam name="userData">0</hkparam>
+							<hkparam name="name">DefaultBlendingTransitionEffect</hkparam>
+							<hkparam name="selfTransitionMode">SELF_TRANSITION_MODE_CONTINUE_IF_CYCLIC_BLEND_IF_ACYCLIC</hkparam>
+							<hkparam name="eventMode">EVENT_MODE_DEFAULT</hkparam>
+							<hkparam name="duration">0.500000</hkparam>
+							<hkparam name="toGeneratorStartTimeFraction">0.000000</hkparam>
+							<hkparam name="flags">0</hkparam>
+							<hkparam name="endMode">END_MODE_NONE</hkparam>
+							<hkparam name="blendCurve">BLEND_CURVE_SMOOTH</hkparam>
+						</hkobject>
+				
+						</hkobject>
+				
+						</hkobject>
+				</hkobject>
+					#
+					==|><hkobject><!-- |(CLIP)| NAME: CloseClip -->
+								<hkobject name="#0066" class="hkbClipGenerator" signature="0x333b85b9">
+									<hkparam name="variableBindingSet">null</hkparam>
+									<hkparam name="userData">0</hkparam>
+									<hkparam name="name">CloseClip</hkparam>
+									<hkparam name="animationName">Close.hkx</hkparam>
+									<hkparam name="triggers">#0065</hkparam>
+									<hkparam name="cropStartAmountLocalTime">0.000000</hkparam>
+									<hkparam name="cropEndAmountLocalTime">0.000000</hkparam>
+									<hkparam name="startTime">0.000000</hkparam>
+									<hkparam name="playbackSpeed">1.000000</hkparam>
+									<hkparam name="enforcedDuration">0.000000</hkparam>
+									<hkparam name="userControlledTimeFraction">0.000000</hkparam>
+									<hkparam name="animationBindingIndex">-1</hkparam>
+									<hkparam name="mode">MODE_SINGLE_PLAY</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+						
+								<hkobject><!-- DATA -->
+								<hkobject name="#0065" class="hkbClipTriggerArray" signature="0x59c23a0f">
+									<hkparam name="triggers" numelements="2">
+										<hkobject>
+											<hkparam name="localTime">0.203000</hkparam>
+											<hkparam name="event">
+												<hkobject>
+													<hkparam name="id">9</hkparam><!-- SoundPlay._Anton_RealFlying_WingsSwing -->
+													<hkparam name="payload">null</hkparam>
+												</hkobject>
+											</hkparam>
+											<hkparam name="relativeToEndOfClip">false</hkparam>
+											<hkparam name="acyclic">false</hkparam>
+											<hkparam name="isAnnotation">false</hkparam>
+										</hkobject>
+										<hkobject>
+											<hkparam name="localTime">0.533000</hkparam>
+											<hkparam name="event">
+												<hkobject>
+													<hkparam name="id">2</hkparam><!-- GoNextClip -->
+													<hkparam name="payload">null</hkparam>
+												</hkobject>
+											</hkparam>
+											<hkparam name="relativeToEndOfClip">false</hkparam>
+											<hkparam name="acyclic">false</hkparam>
+											<hkparam name="isAnnotation">false</hkparam>
+										</hkobject>
+									</hkparam>
+								</hkobject>
+						
+								</hkobject>
+						</hkobject>
+
+			||
+			==|><hkobject><!-- |[STATE]| NAME: Flap STATE ID: 5 -->
+						<hkobject name="#0064" class="hkbStateMachineStateInfo" signature="0xed7f9d0">
+							<hkparam name="variableBindingSet">null</hkparam>
+							<hkparam name="listeners" numelements="0"></hkparam>
+							<hkparam name="enterNotifyEvents">null</hkparam>
+							<hkparam name="exitNotifyEvents">null</hkparam>
+							<hkparam name="transitions">#0063</hkparam>
+							<hkparam name="generator">#0062</hkparam>
+							<hkparam name="name">Flap</hkparam>
+							<hkparam name="stateId">5</hkparam>
+							<hkparam name="probability">1.000000</hkparam>
+						<hkparam name="enable">true</hkparam>
+						</hkobject>
+				
+						<hkobject><!-- |[TRANSITIONS-=>]| -->
+						<hkobject name="#0063" class="hkbStateMachineTransitionInfoArray" signature="0xe397b11e">
+							<hkparam name="transitions" numelements="3">
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+										<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">3</hkparam><!-- RealFlying_Forward -->
+									<hkparam name="toStateId">3</hkparam><!-- STATE: Glide -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+										<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">6</hkparam><!-- IdleForceDefaultState -->
+									<hkparam name="toStateId">4</hkparam><!-- STATE: Close -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">7</hkparam><!-- MTState -->
+									<hkparam name="toStateId">4</hkparam><!-- STATE: Close -->
+								<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+							</hkparam>
+						</hkobject>
+				
+						<hkobject><!-- |[TRANSITION_EFFECT~~]| NAME: DefaultBlendingTransitionEffect -->
+						<hkobject name="#0056" class="hkbBlendingTransitionEffect" signature="0xfd8584fe">
+							<hkparam name="variableBindingSet">null</hkparam>
+						<hkparam name="userData">0</hkparam>
+							<hkparam name="name">DefaultBlendingTransitionEffect</hkparam>
+							<hkparam name="selfTransitionMode">SELF_TRANSITION_MODE_CONTINUE_IF_CYCLIC_BLEND_IF_ACYCLIC</hkparam>
+							<hkparam name="eventMode">EVENT_MODE_DEFAULT</hkparam>
+							<hkparam name="duration">0.500000</hkparam>
+							<hkparam name="toGeneratorStartTimeFraction">0.000000</hkparam>
+							<hkparam name="flags">0</hkparam>
+							<hkparam name="endMode">END_MODE_NONE</hkparam>
+							<hkparam name="blendCurve">BLEND_CURVE_SMOOTH</hkparam>
+						</hkobject>
+				
+						</hkobject>
+				
+						</hkobject>
+				</hkobject>
+					#
+					==|><hkobject><!-- |(CLIP)| NAME: FlapClip -->
+								<hkobject name="#0062" class="hkbClipGenerator" signature="0x333b85b9">
+									<hkparam name="variableBindingSet">null</hkparam>
+									<hkparam name="userData">0</hkparam>
+									<hkparam name="name">FlapClip</hkparam>
+									<hkparam name="animationName">Flap.hkx</hkparam>
+									<hkparam name="triggers">#0061</hkparam>
+									<hkparam name="cropStartAmountLocalTime">0.000000</hkparam>
+									<hkparam name="cropEndAmountLocalTime">0.000000</hkparam>
+									<hkparam name="startTime">0.000000</hkparam>
+									<hkparam name="playbackSpeed">0.900000</hkparam>
+									<hkparam name="enforcedDuration">0.000000</hkparam>
+								<hkparam name="userControlledTimeFraction">0.000000</hkparam>
+									<hkparam name="animationBindingIndex">-1</hkparam>
+									<hkparam name="mode">MODE_LOOPING</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+						
+								<hkobject><!-- DATA -->
+								<hkobject name="#0061" class="hkbClipTriggerArray" signature="0x59c23a0f">
+									<hkparam name="triggers" numelements="1">
+										<hkobject>
+											<hkparam name="localTime">0.033000</hkparam>
+											<hkparam name="event">
+												<hkobject>
+													<hkparam name="id">8</hkparam><!-- SoundPlay._Anton_RealFlying_WingsFlap -->
+													<hkparam name="payload">null</hkparam>
+												</hkobject>
+											</hkparam>
+											<hkparam name="relativeToEndOfClip">false</hkparam>
+											<hkparam name="acyclic">false</hkparam>
+											<hkparam name="isAnnotation">false</hkparam>
+										</hkobject>
+									</hkparam>
+								</hkobject>
+					
+								</hkobject>
+						</hkobject>
+
+			||
+			==|><hkobject><!-- |[STATE]| NAME: FlapShort STATE ID: 6 -->
+						<hkobject name="#0060" class="hkbStateMachineStateInfo" signature="0xed7f9d0">
+						<hkparam name="variableBindingSet">null</hkparam>
+							<hkparam name="listeners" numelements="0"></hkparam>
+							<hkparam name="enterNotifyEvents">null</hkparam>
+							<hkparam name="exitNotifyEvents">null</hkparam>
+							<hkparam name="transitions">#0059</hkparam>
+							<hkparam name="generator">#0058</hkparam>
+							<hkparam name="name">FlapShort</hkparam>
+							<hkparam name="stateId">6</hkparam>
+							<hkparam name="probability">1.000000</hkparam>
+						<hkparam name="enable">true</hkparam>
+						</hkobject>
+				
+						<hkobject><!-- |[TRANSITIONS-=>]| -->
+						<hkobject name="#0059" class="hkbStateMachineTransitionInfoArray" signature="0xe397b11e">
+							<hkparam name="transitions" numelements="5">
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">2</hkparam><!-- GoNextClip -->
+									<hkparam name="toStateId">3</hkparam><!-- STATE: Glide -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+										<hkparam name="enterTime">0.000000</hkparam>
+										<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+								</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">4</hkparam><!-- RealFlying_ForwardUp -->
+									<hkparam name="toStateId">5</hkparam><!-- STATE: Flap -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+										<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">6</hkparam><!-- IdleForceDefaultState -->
+									<hkparam name="toStateId">4</hkparam><!-- STATE: Close -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">7</hkparam><!-- MTState -->
+									<hkparam name="toStateId">4</hkparam><!-- STATE: Close -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+								<hkobject>
+									<hkparam name="triggerInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="initiateInterval">
+										<hkobject>
+											<hkparam name="enterEventId">-1</hkparam>
+											<hkparam name="exitEventId">-1</hkparam>
+											<hkparam name="enterTime">0.000000</hkparam>
+											<hkparam name="exitTime">0.000000</hkparam>
+										</hkobject>
+									</hkparam>
+									<hkparam name="transition">#0056</hkparam><!-- DefaultBlendingTransitionEffect -->
+									<hkparam name="condition">null</hkparam>
+									<hkparam name="eventId">5</hkparam><!-- RealFlying_ForwardDown -->
+									<hkparam name="toStateId">2</hkparam><!-- STATE: GlideShort -->
+									<hkparam name="fromNestedStateId">0</hkparam>
+									<hkparam name="toNestedStateId">0</hkparam>
+									<hkparam name="priority">0</hkparam>
+									<hkparam name="flags">0</hkparam>
+								</hkobject>
+							</hkparam>
+						</hkobject>
+				
+						<hkobject><!-- |[TRANSITION_EFFECT~~]| NAME: DefaultBlendingTransitionEffect -->
+						<hkobject name="#0056" class="hkbBlendingTransitionEffect" signature="0xfd8584fe">
+							<hkparam name="variableBindingSet">null</hkparam>
+						<hkparam name="userData">0</hkparam>
+							<hkparam name="name">DefaultBlendingTransitionEffect</hkparam>
+							<hkparam name="selfTransitionMode">SELF_TRANSITION_MODE_CONTINUE_IF_CYCLIC_BLEND_IF_ACYCLIC</hkparam>
+							<hkparam name="eventMode">EVENT_MODE_DEFAULT</hkparam>
+							<hkparam name="duration">0.500000</hkparam>
+							<hkparam name="toGeneratorStartTimeFraction">0.000000</hkparam>
+							<hkparam name="flags">0</hkparam>
+							<hkparam name="endMode">END_MODE_NONE</hkparam>
+							<hkparam name="blendCurve">BLEND_CURVE_SMOOTH</hkparam>
+						</hkobject>
+				
+						</hkobject>
+				
+						</hkobject>
+				</hkobject>
+					#
+					==|><hkobject><!-- |(CLIP)| NAME: FlapShortClip -->
+								<hkobject name="#0058" class="hkbClipGenerator" signature="0x333b85b9">
+									<hkparam name="variableBindingSet">null</hkparam>
+									<hkparam name="userData">0</hkparam>
+									<hkparam name="name">FlapShortClip</hkparam>
+									<hkparam name="animationName">FlapShort.hkx</hkparam>
+									<hkparam name="triggers">#0057</hkparam>
+									<hkparam name="cropStartAmountLocalTime">0.000000</hkparam>
+									<hkparam name="cropEndAmountLocalTime">0.000000</hkparam>
+									<hkparam name="startTime">0.000000</hkparam>
+									<hkparam name="playbackSpeed">1.000000</hkparam>
+									<hkparam name="enforcedDuration">0.000000</hkparam>
+									<hkparam name="userControlledTimeFraction">0.000000</hkparam>
+									<hkparam name="animationBindingIndex">-1</hkparam>
+									<hkparam name="mode">MODE_SINGLE_PLAY</hkparam>
+									<hkparam name="flags">2</hkparam>
+								</hkobject>
+						
+							<hkobject><!-- DATA -->
+								<hkobject name="#0057" class="hkbClipTriggerArray" signature="0x59c23a0f">
+									<hkparam name="triggers" numelements="2">
+										<hkobject>
+											<hkparam name="localTime">0.033333</hkparam>
+											<hkparam name="event">
+												<hkobject>
+													<hkparam name="id">10</hkparam><!-- SoundPlay._Anton_RealFlying_WingsSwingSlow -->
+													<hkparam name="payload">null</hkparam>
+												</hkobject>
+											</hkparam>
+											<hkparam name="relativeToEndOfClip">false</hkparam>
+											<hkparam name="acyclic">false</hkparam>
+											<hkparam name="isAnnotation">false</hkparam>
+										</hkobject>
+										<hkobject>
+											<hkparam name="localTime">1.033333</hkparam>
+											<hkparam name="event">
+												<hkobject>
+													<hkparam name="id">2</hkparam><!-- GoNextClip -->
+													<hkparam name="payload">null</hkparam>
+												</hkobject>
+										</hkparam>
+											<hkparam name="relativeToEndOfClip">false</hkparam>
+											<hkparam name="acyclic">false</hkparam>
+											<hkparam name="isAnnotation">false</hkparam>
+										</hkobject>
+									</hkparam>
+								</hkobject>
+						
+								</hkobject>
+						</hkobject>
+
+		||
+		</hkobject><!-- BEHAVIOR CHILDREN END -->
+
+<hkobject><!-- |/EVENT/| - |[VARIABLE]| -->
+		<hkobject name="#0054" class="hkbBehaviorGraphData" signature="0x95aca5d">
+			<hkparam name="attributeDefaults" numelements="0"></hkparam>
+			<hkparam name="variableInfos" numelements="0"></hkparam>
+			<hkparam name="characterPropertyInfos" numelements="0"></hkparam>
+			<hkparam name="eventInfos" numelements="12">
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+			</hkparam>
+			<hkparam name="wordMinVariableValues" numelements="0"></hkparam>
+			<hkparam name="wordMaxVariableValues" numelements="0"></hkparam>
+			<hkparam name="variableInitialValues">#0053</hkparam>
+			<hkparam name="stringData">#0052</hkparam>
+		</hkobject>
+
+		<hkobject name="#0053" class="hkbVariableValueSet" signature="0x27812d8d">
+			<hkparam name="wordVariableValues" numelements="0"></hkparam>
+			<hkparam name="quadVariableValues" numelements="0"></hkparam>
+			<hkparam name="variantVariableValues" numelements="0"></hkparam>
+		</hkobject>
+
+		<hkobject name="#0052" class="hkbBehaviorGraphStringData" signature="0xc713064e">
+			<hkparam name="eventNames" numelements="12">
+				<hkcstring>RestartEffect</hkcstring>
+				<hkcstring>JumpUp</hkcstring>
+				<hkcstring>GoNextClip</hkcstring>
+				<hkcstring>RealFlying_Forward</hkcstring>
+				<hkcstring>RealFlying_ForwardUp</hkcstring>
+				<hkcstring>RealFlying_ForwardDown</hkcstring>
+				<hkcstring>IdleForceDefaultState</hkcstring>
+				<hkcstring>MTState</hkcstring>
+			<hkcstring>SoundPlay._Anton_RealFlying_WingsFlap</hkcstring>
+				<hkcstring>SoundPlay._Anton_RealFlying_WingsSwing</hkcstring>
+				<hkcstring>SoundPlay._Anton_RealFlying_WingsSwingSlow</hkcstring>
+				<hkcstring>RealFlying_ForwardAlt</hkcstring>
+			</hkparam>
+			<hkparam name="attributeNames" numelements="0"></hkparam>
+			<hkparam name="variableNames" numelements="0"></hkparam>
+			<hkparam name="characterPropertyNames" numelements="0"></hkparam>
+		</hkobject>
+</hkobject>
+

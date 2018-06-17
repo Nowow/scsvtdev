@@ -1,0 +1,50 @@
+[color=gold]THIS TOOL IS FOR SERIOUS ANIMATION/BEHAVIOR MODDERS ONLY! [/color]
+If you don't know what behaviors are made for, or how you can read and convert xml and hkx files, or what all thee strange names mean in the examples, then please leave CondenseBehavior alone. It's not made for you.
+[color=gold]THERE IS NO DOCUMENTATION AVAILABLE, HOW YOU CAN READ BEHAVIOR FILES. AND I WILL NOT MAKE INTRODUCTIONS TO ANYONE![/color]
+
+ 
+Always wanted to read [color=skyblue]Behavior Files[/color], but got eye flickering just from looking into hundred thousands of XML lines? Then this is the tool for you. CondenseBehavior will present the contents of a Behavior File in a comprehensible form. No more, no less. 
+
+Compared to a Behavior XML file, Condense Behavior will:[list]
+[*]Omit non-important lines, comments, and XML keywords and separators (reducing more than 80% of the lines)
+[*]Logically sort and indent the information
+[*]Annotate IDs and states with the symbolic names of events, variables, and records[/list]
+
+
+___________________________________________________________________________________
+[size=4][color=yellow]Requirements[/color][/size]
+
+[list]
+[*].NET 4.0 or higher
+[*][url=http://skyrim.nexusmods.com/mods/1797]hkxcmd[/url]: this will convert your .hkx files into .xml format.
+[/list]
+hkxcmd is a commandline tool (i.e. run in a DOS windows). Install, and go to a directory with .hkx files. The following command will convert all .hkx file in this directory and all sub-directories into a directory tree "XML":
+
+[code]hkxcmd.exe convert -v:xml . XML[/code]
+
+___________________________________________________________________________________
+[size=4][color=yellow]Usage[/color][/size]
+
+Install CondenseBehavior.exe in an arbitrary location. Execute. You will get the following Window:
+
+[URL=http://www.mediafire.com/view/?9sd23px6l2ououa][IMG]http://www.mediafire.com/conv/e66e05f0554465ecb40df995dbe961a0214ade89e0ee32a820909519b2b00b787g.jpg[/IMG][/URL]
+
+[color=skyblue]Generate Condensed[/color]: this is the main part of the tool. It will let you browse for a behavior .xml fill (bbb.xml), and transform it into the "condensed" format (bbb_COND.xml)
+
+Note: bbb_COND.xml is no xml file, it is just nicer to read in notepad++ (the text editor I'm recommending)
+
+[color=skyblue]Selected IDs[/color]: here you can enter up to 4 node IDs. The resulting COND file then will only contain the nodes which belong to the combined sub-trees those nodes belong to. bbb_TEMP.xml is an intermedate file which can be deleted. 
+
+[color=skyblue]Generate XML Subtract[/color]: This will revert the bbb_COND.xml file back into original (real) xml, but with only the nodes from the COND file. The resulting filename is bbb_EXTR.xml 
+
+And this is the result for a small portion of 0_master.hkx:
+[URL=http://www.mediafire.com/view/?yr0tpmlae56qjet][IMG]http://www.mediafire.com/conv/8f9f4a292305e63971ca1e301ddc130168afb18623d0b9210283a6a7450edde37g.jpg[/IMG][/URL]
+___________________________________________________________________________________
+[size=4][color=yellow]History[/color][/size]
+
+2013/02/21 V1.0 . . Initial Relase
+ 
+___________________________________________________________________________________
+[size=4][color=yellow]Credits[/color][/size]
+
+TheFigment aka The Hologram for his invaluable [url=http://skyrim.nexusmods.com/mods/1797]hkxcmd[/url]

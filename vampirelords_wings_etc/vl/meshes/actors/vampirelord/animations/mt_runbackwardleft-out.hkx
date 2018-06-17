@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="ascii"?>
+<hkpackfile classversion="8" contentsversion="hk_2010.2.0-r1" toplevelobject="#0045">
+
+	<hksection name="__data__">
+
+		<hkobject name="#0046" class="hkMemoryResourceContainer" signature="0x4762f92a">
+			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
+			<!-- referenceCount SERIALIZE_IGNORED -->
+			<hkparam name="name"></hkparam>
+			<!-- parent SERIALIZE_IGNORED -->
+			<hkparam name="resourceHandles" numelements="0"></hkparam>
+			<hkparam name="children" numelements="0"></hkparam>
+		</hkobject>
+
+		<hkobject name="#0048" class="hkaSplineCompressedAnimation" signature="0x792ee0bb">
+			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
+			<!-- referenceCount SERIALIZE_IGNORED -->
+			<hkparam name="type">HK_SPLINE_COMPRESSED_ANIMATION</hkparam>
+			<hkparam name="duration">0.666667</hkparam>
+			<hkparam name="numberOfTransformTracks">93</hkparam>
+			<hkparam name="numberOfFloatTracks">0</hkparam>
+			<hkparam name="extractedMotion">null</hkparam>
+			<hkparam name="annotationTracks" numelements="93">
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="2">
+						<hkobject>
+							<hkparam name="time">0.066667</hkparam>
+							<hkparam name="text">FootRight</hkparam>
+						</hkobject>
+						<hkobject>
+							<hkparam name="time">0.400000</hkparam>
+							<hkparam name="text">FootLeft</hkparam>
+						</hkobject>
+					</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="trackName"></hkparam>
+					<hkparam name="annotations" numelements="0"></hkparam>
+				</hkobject>
+			</hkparam>
+			<hkparam name="numFrames">21</hkparam>
+			<hkparam name="numBlocks">1</hkparam>
+			<hkparam name="maxFramesPerBlock">256</hkparam>
+			<hkparam name="maskAndQuantizationSize">372</hkparam>
+			<hkparam name="blockDuration">8.500000</hkparam>
+			<hkparam name="blockInverseDuration">0.117647</hkparam>
+			<hkparam name="frameDuration">0.033333</hkparam>
+			<hkparam name="blockOffsets" numelements="1">
+				0
+			</hkparam>
+			<hkparam name="floatBlockOffsets" numelements="1">
+				7008
+			</hkparam>
+			<hkparam name="transformOffsets" numelements="0"></hkparam>
+			<hkparam name="floatOffsets" numelements="0"></hkparam>
+			<hkparam name="data" numelements="7008">
+				69 0 12 0 69 80 112 0 69 0 0 0 69 1 240 0
+				69 4 144 0 69 4 240 0 69 1 240 0 69 4 144 0
+				69 4 240 0 69 6 112 0 69 4 80 0 69 6 90 0
+				69 7 240 0 69 112 240 0 69 4 150 0 69 7 240 0
+				69 112 240 0 69 4 210 0 69 1 0 0 69 1 0 0
+				69 6 112 0 69 4 112 0 69 4 240 0 69 4 240 0
+				69 6 112 0 69 7 0 0 69 7 0 0 69 6 0 0
+				69 6 240 0 69 6 240 0 69 4 240 0 69 4 165 0
+				69 0 165 0 69 1 16 0 69 4 90 0 69 4 90 0
+				69 0 90 0 69 1 16 0 69 7 60 0 69 4 30 0
+				69 4 24 0 69 7 240 0 69 4 24 0 69 4 16 0
+				69 7 150 0 69 4 24 0 69 4 16 0 69 7 180 0
+				69 4 24 0 69 4 16 0 69 7 240 0 69 4 144 0
+				69 4 16 0 69 7 240 0 69 4 30 0 69 4 24 0
+				69 7 240 0 69 4 24 0 69 4 9 0 69 7 120 0
+				69 4 9 0 69 4 1 0 69 7 240 0 69 4 9 0
+				69 4 9 0 69 7 240 0 69 4 9 0 69 4 1 0
+				69 4 12 0 69 0 0 0 69 7 15 0 69 4 15 0
+				69 4 15 0 69 4 13 0 69 4 11 0 69 7 15 0
+				69 4 15 0 69 4 15 0 69 4 13 0 69 4 11 0
+				69 6 240 0 69 4 112 0 69 4 112 0 69 4 240 0
+				69 7 0 0 69 7 0 0 69 7 15 0 69 4 0 0
+				69 7 15 0 69 4 0 0 69 22 225 0 69 4 112 0
+				69 4 240 0 255 247 127 172 51 0 0 0 20 0 1 0
+				0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+				16 17 18 19 20 20 0 0 48 247 26 192 128 113 94 63
+				171 164 142 66 250 17 153 66 242 238 117 205 54 255 138 141
+				255 255 92 73 76 243 57 14 173 216 0 0 120 172 116 28
+				115 169 64 82 175 158 151 155 83 147 139 215 169 139 107 239
+				45 131 132 236 180 113 151 193 102 77 247 115 96 22 106 48
+				0 0 76 14 185 9 56 38 89 50 178 105 195 109 5 179
+				18 170 140 232 206 209 255 255 248 238 116 205 15 0 3 0
+				0 0 0 4 4 7 7 10 12 12 15 15 18 18 18 20
+				20 20 20 87 8 128 57 56 155 248 127 214 55 181 40 126
+				172 55 220 88 128 79 55 225 232 127 69 55 163 56 131 83
+				55 130 40 130 146 55 167 232 124 18 56 203 168 129 152 56
+				18 89 131 132 56 168 168 129 163 56 101 56 125 217 56 66
+				200 123 179 56 61 8 126 135 56 17 232 123 121 56 87 8
+				128 57 56 0 165 174 211 192 15 0 1 0 0 2 3 4
+				5 7 8 10 11 12 13 14 16 17 19 20 20 140 38 180
+				226 23 147 102 187 142 23 155 166 188 125 23 153 246 184 125
+				23 132 182 175 163 23 79 214 147 203 23 99 150 135 209 23
+				209 182 118 142 23 240 246 108 103 23 241 22 109 92 23 242
+				230 118 158 23 218 54 122 223 23 142 246 145 239 23 123 118
+				163 196 23 137 150 183 202 23 140 38 180 226 23 0 0 0
+				0 0 15 66 15 0 1 0 0 1 2 3 4 6 8 10
+				11 12 13 16 17 18 19 20 20 80 250 127 19 56 23 251
+				127 19 56 78 252 127 18 56 60 253 127 17 56 179 13 128
+				16 56 197 13 128 17 56 244 252 127 17 56 193 252 127 18
+				56 154 11 128 19 56 18 251 127 19 56 235 251 127 18 56
+				134 251 127 19 56 173 251 127 18 56 234 250 127 19 56 32
+				251 127 19 56 80 250 127 19 56 0 0 0 255 255 7 66
+				18 0 1 0 0 1 2 3 5 6 8 9 10 11 12 13
+				14 15 16 17 18 19 20 20 25 196 107 65 56 168 179 109
+				6 56 212 226 115 238 55 144 2 125 218 55 11 211 141 109
+				55 76 243 146 95 55 83 196 151 81 55 231 52 154 152 55
+				36 21 150 69 55 146 85 147 38 55 16 197 144 107 55 124
+				66 138 152 55 241 80 132 150 55 238 96 130 192 55 142 129
+				128 0 56 232 34 120 98 56 216 116 115 145 56 172 228 111
+				156 56 25 196 107 66 56 0 174 174 211 64 16 0 1 0
+				0 1 2 4 5 6 8 9 10 11 12 13 14 15 16 18
+				20 20 252 232 102 44 24 238 56 111 62 24 239 232 123 40
+				24 20 185 141 200 23 253 88 150 208 23 6 233 153 200 23
+				74 233 155 172 23 109 201 169 203 23 149 201 173 217 23 168
+				9 168 223 23 161 233 169 25 24 99 73 174 133 24 68 25
+				173 183 24 78 73 168 180 24 96 233 159 146 24 120 137 135
+				32 24 252 232 102 44 24 0 0 0 15 66 18 0 1 0
+				0 1 2 4 5 6 7 8 9 10 11 12 13 14 15 16
+				18 19 20 20 100 234 127 234 55 252 218 127 234 55 254 203
+				127 235 55 23 220 127 235 55 198 219 127 235 55 201 234 127
+				234 55 3 249 127 234 55 255 247 127 233 55 137 233 127 234
+				55 63 234 127 234 55 19 234 127 234 55 240 218 127 234 55
+				57 204 127 235 55 69 189 127 236 55 236 189 127 237 55 7
+				190 127 237 55 28 205 127 236 55 99 204 127 235 55 100 234
+				127 234 55 0 0 0 8 66 20 0 1 0 0 1 2 3
+				4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+				20 20 205 197 127 252 57 221 20 139 225 57 187 178 145 79
+				58 39 145 135 152 58 238 112 127 94 58 127 65 123 5 58
+				196 34 121 119 57 178 165 119 228 56 124 38 119 245 55 90
+				69 120 50 55 25 244 114 240 54 20 163 107 14 55 228 210
+				100 111 55 216 226 99 230 55 70 210 103 75 56 51 50 112
+				161 56 155 194 122 206 56 95 19 132 195 56 24 4 137 160
+				56 69 164 134 71 57 206 197 127 252 57 0 223 172 167 192
+				38 170 114 64 11 0 3 0 0 0 0 5 5 8 8 12
+				12 18 18 20 20 20 20 235 55 130 79 56 209 167 128 51
+				56 206 167 131 124 56 177 119 130 87 56 186 87 126 96 56
+				198 183 128 65 56 187 247 130 47 56 153 215 127 42 56 184
+				231 126 59 56 2 56 132 79 56 236 39 129 102 56 235 55
+				130 79 56 0 192 250 11 65 12 0 3 0 0 0 0 3
+				3 3 9 9 9 12 14 14 20 20 20 20 65 72 126 232
+				56 47 184 126 222 56 19 120 126 240 56 9 248 127 51 57
+				242 151 127 81 57 196 7 127 67 57 6 168 126 25 57 212
+				87 126 10 57 40 24 131 165 56 181 103 126 246 56 215 55
+				124 3 57 167 232 125 237 56 65 72 126 232 56 0 0 0
+				244 31 140 188 64 211 29 65 11 0 3 0 0 0 0 6
+				6 10 10 10 14 14 18 20 20 20 20 235 5 130 44 57
+				193 229 130 27 57 151 213 131 134 57 226 213 130 134 57 218
+				181 129 81 57 10 246 129 81 57 239 133 133 60 57 100 149
+				130 22 57 131 149 131 89 57 55 182 135 103 57 0 182 131
+				36 57 235 5 130 44 57 0 229 248 216 191 45 102 188 64
+				100 162 155 65 15 0 1 0 0 2 3 4 5 6 7 8
+				10 11 12 14 15 17 19 20 20 187 184 183 132 94 250 8
+				186 94 94 185 152 183 144 94 194 152 183 149 94 68 121 185
+				159 94 87 73 185 174 94 162 169 184 232 94 168 121 184 241
+				94 97 249 184 191 94 253 72 184 160 94 126 88 184 77 94
+				97 216 183 76 94 108 8 184 53 94 137 24 183 116 94 205
+				56 182 197 94 187 184 183 132 94 0 0 0 20 0 1 0
+				0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+				16 17 18 19 20 20 0 0 0 101 236 62 128 107 102 63
+				0 135 104 63 0 189 173 63 96 68 125 65 32 187 127 65
+				168 166 79 74 107 189 67 178 100 97 86 138 202 197 62 126
+				98 64 79 154 221 74 39 202 165 147 95 82 76 197 100 115
+				234 184 104 47 174 94 204 198 119 40 220 11 57 252 0 0
+				0 0 255 255 152 0 148 27 251 245 65 1 158 74 252 205
+				249 44 245 126 184 129 244 138 144 230 42 24 52 189 211 244
+				111 2 175 201 253 233 0 0 29 219 255 255 178 3 2 185
+				131 231 192 19 91 194 255 188 23 32 127 228 226 124 214 59
+				255 255 13 94 186 88 81 240 165 166 79 74 104 189 0 0
+				16 0 1 0 0 2 3 4 5 6 7 8 9 10 11 12
+				14 15 17 19 20 20 238 172 203 77 119 193 235 209 21 119
+				199 122 213 99 119 129 153 211 161 119 158 232 206 33 119 203
+				199 203 238 118 193 103 204 113 118 32 136 203 86 118 180 232
+				201 100 118 117 105 199 155 118 91 154 196 3 119 64 27 190
+				141 119 224 76 190 6 120 64 29 190 15 120 79 189 199 32
+				120 43 141 206 175 119 238 172 203 77 119 0 11 172 182 65
+				19 0 3 0 0 0 0 3 3 4 7 7 7 11 11 11
+				13 13 14 14 14 19 19 20 20 20 20 131 199 139 70 78
+				132 199 139 80 78 133 215 139 90 78 133 119 139 128 78 135
+				247 138 208 78 139 231 138 18 79 142 7 139 62 79 142 231
+				139 240 78 139 199 139 186 78 131 183 138 158 78 132 103 138
+				199 78 134 55 138 247 78 139 87 138 74 79 141 103 138 95
+				79 142 135 138 110 79 142 247 138 72 79 141 87 139 17 79
+				137 199 139 157 78 134 199 139 114 78 131 199 139 70 78 0
+				214 248 216 63 44 102 188 64 98 162 155 65 15 0 3 0
+				0 0 0 3 3 4 4 8 10 12 12 12 14 14 15 20
+				20 20 20 237 55 63 23 30 179 87 64 253 29 168 71 64
+				234 29 155 199 64 238 29 152 87 65 6 30 168 247 65 67
+				30 172 23 66 79 30 197 7 63 213 29 242 55 62 240 29
+				8 200 61 253 29 62 88 61 49 30 96 56 61 83 30 87
+				152 61 92 30 1 120 63 52 30 227 231 63 29 30 237 55
+				63 23 30 0 20 0 1 0 0 1 2 3 4 5 6 7
+				8 9 10 11 12 13 14 15 16 17 18 19 20 20 0 0
+				48 144 136 191 0 88 81 191 128 126 54 63 0 7 139 63
+				168 47 126 65 32 31 128 65 78 110 160 101 74 99 247 68
+				58 33 181 142 189 34 164 1 223 142 33 5 0 0 28 113
+				238 127 56 6 4 230 117 158 13 8 255 255 190 194 210 57
+				22 232 242 174 114 51 51 222 222 159 126 43 232 217 2 49
+				21 29 11 127 0 0 175 43 106 57 37 12 14 73 75 34
+				60 65 84 128 11 17 247 206 162 229 229 0 255 255 255 255
+				0 0 87 204 12 181 60 75 104 184 214 145 193 108 22 161
+				140 119 188 123 188 123 17 87 81 131 255 122 216 92 33 123
+				72 110 160 101 78 99 0 0 16 0 1 0 0 1 2 3
+				4 5 6 7 8 9 10 12 13 14 16 18 20 20 255 117
+				201 93 55 207 245 195 227 55 94 149 189 138 56 196 116 184
+				49 57 255 19 186 141 57 159 131 188 237 57 37 51 192 225
+				57 246 50 197 177 57 239 2 201 77 57 26 35 201 228 56
+				153 83 204 142 56 165 5 212 209 55 87 198 215 43 55 165
+				22 215 190 54 13 247 211 193 54 194 198 208 21 55 255 117
+				201 93 55 0 10 172 182 65 11 0 1 0 0 1 3 5
+				9 11 12 15 17 18 19 20 20 133 56 118 124 78 137 104
+				118 63 78 137 248 118 82 78 119 216 115 141 78 126 24 114
+				21 77 133 136 114 236 76 138 120 115 12 77 144 72 121 248
+				77 132 120 120 227 78 130 200 119 246 78 129 8 119 217 78
+				133 56 118 124 78 0 0 0 251 255 159 192 255 255 159 64
+				220 206 220 60 210 80 176 65 18 0 3 0 0 0 0 2
+				2 3 3 3 6 6 9 9 13 13 14 15 15 18 20 20
+				20 20 23 71 124 35 57 36 151 125 29 57 49 215 126 23
+				57 72 199 128 231 56 83 135 129 190 56 93 71 130 149 56
+				81 119 129 170 56 68 71 128 172 56 28 103 131 210 56 0
+				167 133 12 57 82 183 133 255 56 141 151 132 248 56 182 87
+				130 0 57 166 135 129 0 57 135 231 128 3 57 71 199 127
+				13 57 245 54 126 14 57 13 215 124 29 57 23 71 124 35
+				57 0 0 0 5 196 44 65 20 0 3 0 0 0 0 2
+				2 3 3 3 6 6 6 10 10 10 13 13 13 17 17 17
+				20 20 20 20 233 182 126 32 56 240 166 125 27 56 247 134
+				124 21 56 246 214 122 46 56 239 70 122 77 56 232 182 121
+				108 56 221 198 121 82 56 210 198 121 56 56 220 38 122 94
+				56 218 6 120 55 56 202 102 119 48 56 172 54 120 74 56
+				190 246 119 24 56 209 198 119 232 55 227 150 119 183 55 208
+				214 122 132 55 191 246 124 87 55 176 6 126 47 55 193 70
+				125 102 55 210 150 124 157 55 233 182 126 32 56 0 0 0
+				151 95 128 65 19 0 1 0 0 1 2 3 4 5 6 7
+				9 10 11 12 13 14 15 16 17 18 19 20 20 67 135 153
+				180 49 90 71 148 139 49 138 135 139 250 48 68 120 129 59
+				48 252 119 105 131 111 239 39 95 51 111 92 136 98 2 111
+				149 104 103 64 111 157 24 111 192 111 168 24 115 206 111 99
+				88 115 166 111 51 40 116 187 111 34 184 114 25 48 124 72
+				118 36 48 133 184 116 13 48 219 104 120 233 111 12 73 125
+				54 48 225 200 132 187 48 244 87 146 91 49 67 135 153 180
+				49 0 0 0 153 95 128 65 20 0 1 0 0 1 2 3
+				4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+				20 20 93 104 126 245 63 80 136 128 237 63 46 40 133 234
+				47 93 184 136 226 63 107 40 130 150 63 149 248 125 214 47
+				2 89 127 106 47 243 72 124 203 47 34 73 125 175 63 35
+				169 125 134 63 244 40 124 168 63 153 88 119 150 63 95 184
+				117 125 63 21 120 118 154 63 145 103 115 164 63 231 38 112
+				56 63 16 183 117 144 63 155 23 124 184 63 18 72 126 238
+				63 83 88 125 252 63 93 104 126 245 63 0 135 159 158 64
+				114 156 155 64 17 0 3 0 0 0 0 1 4 7 7 7
+				10 10 10 14 14 14 18 18 18 20 20 20 20 189 199 125
+				116 55 178 7 126 140 55 149 135 126 202 55 109 23 127 23
+				56 110 103 126 69 56 110 7 126 93 56 132 71 126 63 56
+				153 135 126 33 56 175 199 126 4 56 152 215 127 174 55 129
+				119 127 109 55 105 151 125 64 55 140 247 126 42 55 174 55
+				128 20 55 209 135 129 254 54 203 71 128 37 55 196 7 127
+				76 55 189 199 125 116 55 0 108 0 0 191 159 53 137 192
+				124 249 11 65 214 255 255 62 165 53 137 192 130 249 11 65
+				211 161 56 65 147 151 81 192 183 182 133 188 5 148 42 65
+				18 0 1 0 0 1 3 4 5 6 7 8 9 10 11 12
+				13 14 15 16 18 19 20 20 14 245 129 30 55 53 85 129
+				54 55 194 37 127 181 55 195 117 126 239 55 128 37 126 6
+				56 196 20 126 4 56 203 19 126 1 56 59 19 126 255 55
+				187 19 126 1 56 34 21 126 3 56 22 38 126 5 56 84
+				128 105 172 54 181 49 114 218 54 175 99 124 138 55 67 164
+				127 254 55 58 164 129 34 56 128 51 136 129 56 148 198 131
+				185 55 14 245 129 30 55 0 98 192 133 188 6 148 42 65
+				16 0 1 0 0 1 2 3 4 5 7 8 9 10 11 12
+				13 14 18 19 20 20 82 116 129 223 55 245 183 121 206 79
+				5 17 127 40 55 223 146 129 234 54 198 243 130 240 54 7
+				84 131 247 54 212 243 130 9 55 199 149 131 44 55 199 182
+				130 91 55 6 37 131 145 55 130 68 130 189 55 100 100 129
+				221 55 48 245 128 232 55 128 229 128 231 55 93 213 128 231
+				55 121 53 129 228 55 82 116 129 223 55 0 93 224 33 65
+				14 0 1 0 0 1 2 4 6 9 10 11 12 13 14 16
+				17 19 20 20 154 6 2 100 73 174 214 1 80 73 28 215
+				0 226 72 119 72 0 135 71 237 232 0 17 71 53 24 0
+				201 71 39 24 0 215 71 82 40 0 172 71 64 40 0 190
+				71 242 23 0 12 72 226 23 0 28 72 7 24 0 247 71
+				202 23 0 52 72 209 118 1 45 73 154 6 2 100 73 0
+				186 111 148 64 15 0 3 0 0 0 0 2 2 4 6 6
+				6 9 9 12 16 17 17 20 20 20 20 21 231 0 233 72
+				20 231 0 234 72 46 183 0 208 72 148 55 0 106 72 3
+				24 0 251 71 43 24 0 211 71 62 24 0 192 71 32 24
+				0 222 71 1 24 0 253 71 229 23 0 25 72 212 23 0
+				42 72 235 23 0 19 72 178 39 0 76 72 94 119 0 160
+				72 48 183 0 206 72 21 231 0 233 72 0 17 0 3 0
+				0 0 0 2 2 2 4 4 4 6 6 6 10 15 15 17
+				17 20 20 20 20 26 240 147 191 102 70 185 1 184 70 18
+				144 144 245 102 13 80 142 25 103 1 176 131 195 103 3 192
+				133 162 103 1 32 125 44 104 1 64 126 26 104 1 32 129
+				236 103 1 176 126 19 104 40 24 0 214 71 12 176 141 35
+				103 213 200 0 41 71 19 240 144 239 102 206 184 0 48 71
+				230 232 0 24 71 18 160 144 244 102 26 240 147 191 102 0
+				95 74 225 64 16 0 3 0 0 0 0 2 2 2 4 4
+				4 6 6 6 10 10 17 17 20 20 20 20 226 248 127 255
+				55 231 248 127 255 55 187 248 127 255 55 161 248 127 255 55
+				41 248 127 255 55 65 248 127 255 55 224 247 127 255 55 236
+				247 127 255 55 12 248 127 255 55 242 247 127 255 55 16 248
+				127 255 55 92 248 127 255 55 157 248 127 255 55 189 248 127
+				255 55 151 248 127 255 55 196 248 127 255 55 226 248 127 255
+				55 0 0 0 32 224 33 65 12 0 1 0 0 1 2 4
+				6 8 9 10 12 14 15 18 20 20 247 23 0 247 55 239
+				23 0 239 55 17 24 0 17 56 154 55 0 154 55 126 88
+				0 126 56 178 39 0 178 55 138 71 0 138 55 172 39 0
+				172 55 136 71 0 136 55 178 39 0 178 55 83 135 0 83
+				55 240 23 0 240 55 247 23 0 247 55 0 163 112 148 64
+				17 0 3 0 0 0 0 4 4 4 6 6 6 9 9 9
+				14 14 15 15 15 20 20 20 20 201 151 124 253 95 210 39
+				125 253 95 194 39 124 253 95 155 183 121 251 95 193 23 124
+				253 95 231 119 126 253 95 12 200 128 253 95 207 247 124 253
+				95 166 103 122 252 95 146 39 121 251 95 142 231 120 250 95
+				149 87 121 251 95 150 103 121 251 95 135 119 120 250 95 119
+				119 119 249 95 171 183 122 252 95 198 103 124 253 95 201 151
+				124 253 95 0 15 0 3 0 0 0 0 5 5 5 9 9
+				10 12 12 12 14 18 18 20 20 20 20 78 40 0 78 56
+				30 24 0 30 56 222 23 0 222 55 141 71 0 141 55 181
+				39 0 181 55 231 23 0 231 55 50 24 0 50 56 39 24
+				0 39 56 5 24 0 5 56 235 23 0 235 55 250 23 0
+				250 55 13 24 0 13 56 16 24 0 16 56 35 24 0 35
+				56 56 24 0 56 56 78 40 0 78 56 0 98 74 225 64
+				8 0 3 0 0 0 0 5 5 10 12 12 20 20 20 20
+				191 247 127 255 55 216 247 127 255 55 41 248 127 255 55 84
+				248 127 255 55 23 247 127 255 55 19 248 127 255 55 204 247
+				127 255 55 23 248 127 255 55 191 247 127 255 55 0 0 0
+				198 73 28 192 122 66 197 191 218 62 164 63 6 0 3 0
+				0 0 0 7 7 16 20 20 20 20 34 200 67 13 47 27
+				120 67 12 47 192 199 63 6 47 232 87 65 9 47 104 152
+				70 15 47 40 248 67 13 47 34 200 67 13 47 0 0 0
+				41 231 134 64 6 0 3 0 0 0 0 7 7 16 20 20
+				20 20 11 250 105 64 56 1 234 105 63 56 138 201 105 53
+				56 190 217 105 58 56 92 26 106 71 56 16 250 105 65 56
+				11 250 105 64 56 0 0 0 18 145 53 64 6 0 3 0
+				0 0 0 7 7 16 20 20 20 20 222 249 127 251 55 213
+				249 127 251 55 93 249 127 253 55 145 249 127 252 55 49 234
+				127 250 55 228 249 127 251 55 222 249 127 251 55 0 0 0
+				207 8 74 192 79 250 135 190 144 163 32 65 8 0 3 0
+				0 0 0 5 5 9 15 15 20 20 20 20 0 248 126 102
+				58 7 216 126 101 58 14 121 122 115 58 73 218 118 157 58
+				16 106 123 180 58 46 248 124 175 58 2 232 124 172 58 255
+				39 127 103 58 0 248 126 102 58 0 0 0 6 226 71 64
+				4 0 3 0 0 0 0 14 20 20 20 20 158 250 127 255
+				55 165 250 127 255 55 207 248 127 255 55 165 250 127 255 55
+				158 250 127 255 55 0 0 0 236 3 28 64 5 0 3 0
+				0 0 0 10 15 20 20 20 20 205 249 127 255 55 205 249
+				127 255 55 252 248 127 255 55 190 248 127 255 55 215 249 127
+				255 55 205 249 127 255 55 0 105 253 109 191 171 127 115 190
+				170 249 30 65 8 0 3 0 0 0 0 5 5 9 13 13
+				20 20 20 20 157 217 131 198 57 165 201 131 198 57 166 74
+				131 202 57 220 171 130 212 57 178 203 130 218 57 25 42 131
+				229 57 129 73 131 228 57 170 217 131 198 57 157 217 131 198
+				57 0 0 0 235 26 124 64 5 0 3 0 0 0 0 10
+				15 20 20 20 20 69 250 127 255 55 68 250 127 255 55 117
+				249 127 255 55 55 249 127 255 55 79 250 127 255 55 69 250
+				127 255 55 0 141 236 44 64 5 0 3 0 0 0 0 10
+				15 20 20 20 20 233 248 127 255 55 232 248 127 255 55 22
+				248 127 255 55 217 247 127 255 55 243 248 127 255 55 233 248
+				127 255 55 0 87 221 129 63 244 56 124 190 86 236 28 65
+				12 0 3 0 0 0 0 2 5 5 8 8 12 12 13 13
+				20 20 20 20 230 137 130 205 56 10 202 130 203 56 118 154
+				131 197 56 40 11 133 184 56 197 155 134 171 56 29 188 135
+				168 56 70 43 134 174 56 181 250 132 176 56 20 170 131 176
+				56 11 154 131 176 56 247 41 131 186 56 236 201 130 195 56
+				230 137 130 205 56 0 0 0 79 154 64 64 5 0 3 0
+				0 0 0 10 15 20 20 20 20 196 250 127 255 55 195 250
+				127 255 55 245 249 127 255 55 184 249 127 255 55 205 250 127
+				255 55 196 250 127 255 55 0 98 139 18 64 5 0 3 0
+				0 0 0 10 15 20 20 20 20 214 249 127 255 55 214 249
+				127 255 55 5 249 127 255 55 199 248 127 255 55 224 249 127
+				255 55 214 249 127 255 55 0 109 57 46 64 122 121 90 191
+				207 151 19 65 9 0 3 0 0 0 0 5 5 9 9 14
+				14 20 20 20 20 243 135 150 54 55 248 119 150 57 55 3
+				153 157 16 55 49 58 161 197 54 46 170 159 189 54 14 137
+				155 207 54 7 168 153 216 54 237 87 152 243 54 244 87 150
+				55 55 243 135 150 54 55 0 137 137 237 63 5 0 3 0
+				0 0 0 10 15 20 20 20 20 134 251 127 255 55 134 251
+				127 255 55 188 250 127 255 55 127 250 127 255 55 144 251 127
+				255 55 134 251 127 255 55 0 72 54 12 64 5 0 3 0
+				0 0 0 10 15 20 20 20 20 133 248 127 255 55 133 248
+				127 255 55 179 247 127 255 55 117 247 127 255 55 143 248 127
+				255 55 133 248 127 255 55 0 223 73 28 64 122 66 197 191
+				183 62 164 63 13 0 3 0 0 0 0 1 1 5 5 6
+				6 13 15 15 19 20 20 20 20 15 232 188 240 110 19 200
+				188 249 110 24 152 188 3 111 89 200 186 115 111 150 248 184
+				178 48 216 216 182 25 49 222 184 182 34 49 180 88 184 41
+				49 97 88 187 28 49 36 40 189 234 48 22 88 189 145 48
+				17 40 189 51 111 15 248 188 247 110 15 232 188 240 110 0
+				45 231 134 64 6 0 3 0 0 0 0 6 14 14 20 20
+				20 20 253 9 150 191 55 2 250 149 191 55 76 234 149 181
+				55 219 9 150 195 55 179 25 150 201 55 248 9 150 192 55
+				253 9 150 191 55 0 0 0 25 145 53 64 6 0 3 0
+				0 0 0 6 14 14 20 20 20 20 209 249 127 3 56 213
+				249 127 3 56 32 250 127 3 56 174 249 127 3 56 133 249
+				127 3 56 203 249 127 3 56 209 249 127 3 56 0 0 0
+				235 8 74 64 241 250 135 190 144 163 32 65 13 0 3 0
+				0 0 0 1 1 4 4 5 7 7 12 12 12 20 20 20
+				20 68 120 129 184 53 56 120 129 173 53 43 120 129 162 53
+				189 39 130 67 53 91 199 130 241 52 236 166 131 150 52 221
+				54 132 140 52 230 54 133 156 52 30 39 136 231 52 75 87
+				138 35 53 124 199 140 100 53 199 103 137 143 53 31 232 131
+				174 53 68 120 129 184 53 0 43 226 71 64 5 0 3 0
+				0 0 0 5 5 20 20 20 20 149 250 127 255 55 143 250
+				127 255 55 201 250 127 255 55 223 250 127 255 55 150 250 127
+				255 55 149 250 127 255 55 0 223 3 28 64 210 249 127 255
+				55 0 0 0 150 253 109 63 122 128 115 190 166 249 30 65
+				10 0 3 0 0 0 0 1 4 5 5 12 12 12 20 20
+				20 20 222 41 124 67 54 211 41 124 63 54 121 105 124 34
+				54 223 200 124 242 53 148 24 125 219 53 176 88 126 237 53
+				215 152 127 2 54 254 184 128 24 54 106 169 126 45 54 181
+				41 125 60 54 222 41 124 67 54 0 0 0 255 26 124 64
+				74 250 127 255 55 0 0 0 145 236 44 64 238 248 127 255
+				55 0 0 0 32 221 129 191 140 58 124 190 87 236 28 65
+				10 0 3 0 0 0 0 1 4 5 5 12 12 12 20 20
+				20 20 39 186 124 41 55 27 234 124 44 55 196 233 125 70
+				55 45 169 127 115 55 227 88 128 138 55 249 200 126 119 55
+				27 25 125 97 55 60 105 123 75 55 173 233 123 57 55 251
+				105 124 46 55 39 186 124 41 55 0 0 0 69 154 64 64
+				201 250 127 255 55 0 0 0 89 139 18 64 35 246 127 255
+				119 0 0 0 87 57 46 192 153 121 90 191 207 151 19 65
+				13 0 3 0 0 0 0 1 1 4 4 5 7 7 12 12
+				12 20 20 20 20 52 24 104 169 56 40 72 104 181 56 28
+				120 104 192 56 179 119 105 37 57 85 87 106 126 57 234 54
+				107 226 57 217 230 106 237 57 223 182 105 222 57 13 199 101
+				147 57 49 183 98 87 57 89 119 95 23 57 169 215 97 228
+				56 10 40 102 184 56 52 24 104 169 56 0 159 137 237 63
+				139 251 127 255 55 0 0 0 70 54 12 64 152 248 127 255
+				55 0 0 0 0 0 242 66 255 247 127 172 51 0 0 0
+				118 129 185 192 86 76 10 193 60 190 157 65 188 110 90 28
+				53 0 0 0 226 145 69 65 206 213 157 185 14 0 0 0
+				208 71 181 65 46 231 114 155 76 0 0 0 3 190 235 65
+				5 104 123 75 66 0 0 0 208 99 218 65 192 180 90 5
+				120 0 0 0 124 129 185 64 86 76 10 193 60 190 157 65
+				188 142 165 226 58 0 0 0 214 145 69 65 48 26 98 185
+				14 0 0 0 210 71 181 65 208 8 141 155 76 0 0 0
+				3 190 235 65 5 104 123 179 13 0 0 0 206 99 218 65
+				62 187 90 5 56 0 0 0 178 39 17 65 67 64 25 64
+				11 0 1 0 0 1 3 4 6 9 11 14 15 16 19 20
+				20 151 71 139 219 5 109 103 135 188 5 168 22 119 41 5
+				120 150 115 6 5 215 134 114 60 5 15 216 114 203 5 184
+				136 120 213 5 150 41 137 153 5 172 25 139 145 5 117 41
+				139 154 5 207 87 139 212 5 151 71 139 219 5 0 0 0
+				124 58 65 65 11 0 3 0 0 0 0 3 3 9 9 11
+				11 14 16 20 20 20 20 191 119 122 22 56 189 119 122 21
+				56 49 23 127 245 55 85 246 135 214 55 107 119 133 229 55
+				176 119 133 229 55 223 135 133 229 55 104 231 132 23 56 151
+				86 130 128 56 180 102 127 104 56 190 135 122 22 56 191 119
+				122 22 56 0 105 175 127 65 16 0 3 0 0 0 0 1
+				3 3 5 5 9 9 11 11 14 14 16 16 20 20 20 20
+				69 56 117 6 56 56 56 118 2 56 252 39 123 244 55 176
+				87 129 226 55 86 71 136 210 55 84 151 137 208 55 175 23
+				138 216 55 232 87 138 225 55 56 168 138 244 55 59 88 138
+				6 56 223 39 134 109 56 150 135 130 180 56 62 247 124 9
+				57 64 71 123 7 57 174 7 120 156 56 33 232 117 42 56
+				69 56 117 6 56 0 0 0 83 137 91 65 15 0 1 0
+				0 1 3 4 5 8 9 10 11 13 14 15 16 18 19 20
+				20 8 89 111 7 56 152 168 115 249 55 172 166 135 247 55
+				62 22 141 7 56 115 102 142 6 56 80 88 144 237 55 212
+				120 144 236 55 8 153 144 247 55 183 216 142 49 56 39 23
+				130 7 57 124 38 122 78 57 60 182 116 97 57 139 166 114
+				54 57 16 248 112 122 56 191 232 111 41 56 8 89 111 7
+				56 0 0 0 226 59 218 189 83 98 49 65 22 21 76 192
+				177 77 255 189 230 183 47 65 10 194 182 64 38 5 202 64
+				6 17 110 63 30 72 133 64 25 76 211 120 51 0 0 0
+				246 255 191 64 46 5 202 192 116 16 110 63 41 72 133 64
+				25 172 44 134 60 0 0 0 11 0 192 64 16 0 1 0
+				0 1 2 3 4 5 9 10 11 12 13 14 15 16 18 19
+				20 20 0 0 128 44 185 189 0 36 185 61 9 32 185 192
+				121 75 191 64 0 0 188 3 47 14 59 30 191 50 162 74
+				94 181 64 205 200 225 216 241 74 252 255 255 15 237 161 189
+				93 66 245 18 3 0 0 0 17 0 3 0 0 0 0 3
+				3 3 11 11 11 12 12 12 14 14 14 15 15 20 20 20
+				20 253 6 121 125 11 40 7 120 145 11 83 247 118 166 11
+				126 247 117 186 11 79 87 113 134 11 44 39 110 95 11 23
+				119 108 70 11 47 119 110 76 11 72 135 112 81 11 97 151
+				114 86 11 189 71 122 99 11 4 40 128 106 11 53 72 132
+				109 11 46 8 132 112 11 32 136 131 114 11 173 103 127 121
+				11 36 119 122 127 11 253 6 121 125 11 0 0 20 37 65
+				11 0 3 0 0 0 0 3 3 11 11 14 14 18 18 20
+				20 20 20 6 89 145 28 56 5 57 145 34 56 202 153 142
+				57 56 207 9 131 49 56 8 105 110 237 55 4 201 110 209
+				55 202 169 112 196 55 206 169 121 202 55 120 233 132 230 55
+				42 9 141 13 56 249 104 147 32 56 6 89 145 28 56 0
+				201 42 214 64 16 0 1 0 0 1 2 3 4 6 8 10
+				11 12 13 14 15 16 18 19 20 20 109 153 130 109 55 218
+				89 144 178 55 141 106 160 249 55 226 58 168 28 56 205 26
+				167 59 56 96 234 159 128 56 215 185 147 174 56 119 57 133
+				170 56 108 249 125 147 56 217 9 113 82 56 142 42 96 9
+				56 226 186 87 226 55 193 250 90 188 55 122 218 98 149 55
+				202 121 119 107 55 135 121 127 107 55 109 153 130 109 55 0
+			</hkparam>
+			<hkparam name="endian">0</hkparam>
+		</hkobject>
+
+		<hkobject name="#0047" class="hkaAnimationBinding" signature="0x66eac971">
+			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
+			<!-- referenceCount SERIALIZE_IGNORED -->
+			<hkparam name="originalSkeletonName">NPC Root [Root]</hkparam>
+			<hkparam name="animation">#0048</hkparam>
+			<hkparam name="transformTrackToBoneIndices" numelements="0"></hkparam>
+			<hkparam name="floatTrackToFloatSlotIndices" numelements="0"></hkparam>
+			<hkparam name="blendHint">NORMAL</hkparam>
+		</hkobject>
+
+		<hkobject name="#0049" class="hkaAnimationContainer" signature="0x8dc20333">
+			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
+			<!-- referenceCount SERIALIZE_IGNORED -->
+			<hkparam name="skeletons" numelements="0"></hkparam>
+			<hkparam name="animations" numelements="1">
+				#0048
+			</hkparam>
+			<hkparam name="bindings" numelements="1">
+				#0047
+			</hkparam>
+			<hkparam name="attachments" numelements="0"></hkparam>
+			<hkparam name="skins" numelements="0"></hkparam>
+		</hkobject>
+
+		<hkobject name="#0045" class="hkRootLevelContainer" signature="0x2772c11e">
+			<hkparam name="namedVariants" numelements="2">
+				<hkobject>
+					<hkparam name="name">Merged Animation Container</hkparam>
+					<hkparam name="className">hkaAnimationContainer</hkparam>
+					<hkparam name="variant">#0049</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">Resource Data</hkparam>
+					<hkparam name="className">hkMemoryResourceContainer</hkparam>
+					<hkparam name="variant">#0046</hkparam>
+				</hkobject>
+			</hkparam>
+		</hkobject>
+
+	</hksection>
+
+</hkpackfile>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ascii"?>
+<hkpackfile classversion="8" contentsversion="hk_2010.2.0-r1" toplevelobject="#0008">
+
+	<hksection name="__data__">
+
+		<hkobject name="#0009" class="hkbProjectStringData" signature="0x76ad60a">
+			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
+			<!-- referenceCount SERIALIZE_IGNORED -->
+			<hkparam name="animationFilenames" numelements="7">
+				<hkcstring>Animations\Close.hkx</hkcstring>
+				<hkcstring>Animations\Default.hkx</hkcstring>
+				<hkcstring>Animations\Flap.hkx</hkcstring>
+				<hkcstring>Animations\FlapShort.hkx</hkcstring>
+				<hkcstring>Animations\Glide.hkx</hkcstring>
+				<hkcstring>Animations\GlideShort.hkx</hkcstring>
+				<hkcstring>Animations\Open.hkx</hkcstring>
+			</hkparam>
+			<hkparam name="behaviorFilenames" numelements="1">
+				<hkcstring>Behaviors\Behavior00.hkx</hkcstring>
+			</hkparam>
+			<hkparam name="characterFilenames" numelements="1">
+				<hkcstring>Characters\Wings.hkx</hkcstring>
+			</hkparam>
+			<hkparam name="eventNames" numelements="0"></hkparam>
+			<hkparam name="animationPath">Animations\</hkparam>
+			<hkparam name="behaviorPath"></hkparam>
+			<hkparam name="characterPath"></hkparam>
+			<hkparam name="fullPathToSource">D:\Havok Projects\Real Flying Wings\RealFlyingWings.hkp</hkparam>
+			<!-- rootPath SERIALIZE_IGNORED -->
+		</hkobject>
+
+		<hkobject name="#0010" class="hkbProjectData" signature="0x13a39ba7">
+			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
+			<!-- referenceCount SERIALIZE_IGNORED -->
+			<hkparam name="worldUpWS">(0.000000 0.000000 1.000000 0.000000)</hkparam>
+			<hkparam name="stringData">#0009</hkparam>
+			<hkparam name="defaultEventMode">EVENT_MODE_IGNORE_FROM_GENERATOR</hkparam>
+		</hkobject>
+
+		<hkobject name="#0008" class="hkRootLevelContainer" signature="0x2772c11e">
+			<hkparam name="namedVariants" numelements="1">
+				<hkobject>
+					<hkparam name="name">hkbProjectData</hkparam>
+					<hkparam name="className">hkbProjectData</hkparam>
+					<hkparam name="variant">#0010</hkparam>
+				</hkobject>
+			</hkparam>
+		</hkobject>
+
+	</hksection>
+
+</hkpackfile>

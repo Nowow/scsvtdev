@@ -1,0 +1,331 @@
+QMainWindow::separator {}
+QMainWindow::separator:horizontal {}
+
+QMainWindow::separator:horizontal:hover {background: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.0442804 rgba(0, 94, 245, 255), stop:0.420664 rgba(0, 203, 243, 255), stop:0.651907 rgba(0, 232, 232, 255), stop:1 rgba(255, 255, 255, 0));}
+
+QMainWindow::separator:vertical {
+	background: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.192771 rgba(134, 134, 134, 255), stop:0.635359 rgba(134, 134, 134, 255), stop:1 rgba(255, 255, 255, 0));
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+
+QMainWindow::separator:vertical:hover {
+	background: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.0442804 rgba(0, 94, 245, 255), stop:0.420664 rgba(0, 203, 243, 255), stop:0.651907 rgba(0, 232, 232, 255), stop:1 rgba(255, 255, 255, 0));
+}
+
+/*QSplitter::handle:horizontal { background: red; }
+QSplitter::handle:vertical { background: blue; }*/
+
+NifSkope QFrame, NifSkope QDockWidget, NifSkope QAbstractScrollArea { border-radius: 2px; border: 0px solid #FFFFFF; }
+
+/*.QMenu {}
+QMenu::item {}
+QMenu::separator {}
+QMenu::indicator {}
+
+QMenuBar {
+	border: 0px none transparent;
+	background: #f5f5f5;
+}
+
+QMenuBar::item {}
+QMenuBar::item:selected {}
+QMenuBar::item:pressed {}
+*/ 
+
+
+QToolBar {
+    spacing: 1px; /* spacing between items in the tool bar */
+	border: 0px none transparent;
+	background: #f5f5f5;
+	padding-left: 3px;
+	border-top: 1px solid #ffffff;
+}
+
+QToolBar::handle {
+	background-image: url(:/img/icon/handle.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	width:5px;
+	margin-right: 5px;
+}
+
+/* Action Buttons */
+QToolButton { border-radius: 2px; }
+QToolBar > QToolButton { height: 20px;  }
+#tRender > QToolButton, #tAnim > QToolButton { height: 20px; width: 20px; }
+QToolButton:on { border: 1px solid rgba(0, 0, 0, 32); background: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.884548, fx:0.5, fy:0.5, stop:0 rgba(255, 255, 255, 0), stop:0.824885 rgba(58, 58, 58, 16), stop:1 rgba(58, 58, 58, 64)); margin: 0px; padding: 1px; }
+QToolButton:!on { border: 1px solid transparent; background: #f5f5f5; margin: 0px; padding: 1px; }
+QToolButton:!hover { }
+QToolButton:hover { border: 1px solid rgba(0, 183, 255, 255); background: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.884548, fx:0.5, fy:0.5, stop:0 rgba(255, 255, 255, 0), stop:0.818182 rgba(0, 183, 255, 64), stop:1 rgba(0, 255, 231, 128)); margin: 0px; padding: 1px; }
+QToolButton:pressed { margin-top: 1px; margin-left: 1px; }
+
+/*#tView > QToolButton:on { color: rgba(0, 173, 207, 255); }*/
+
+/*
+QToolBar::separator {
+	background: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.492, fx:0.5, fy:0.5, stop:0.388771 rgba(58, 58, 58, 255), stop:1 rgba(255, 255, 255, 0));
+	width: 3px;
+	margin: 2px;
+}*/
+
+QTabBar {}
+QTabBar::tab:bottom {}
+QTabBar::tab:selected, QTabBar::tab:hover {}
+QTabBar::tab:selected {}
+QTabBar::tab:!selected {}
+
+/* Place QTabWidget after QTabBar! */
+
+QTabWidget {
+	background: transparent;
+}
+
+QTabWidget QTabBar {
+	background: transparent;
+}
+
+
+NifTreeView {
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #eaeaea;
+	border-top: 0px;
+	border-radius: 2px;
+	alternate-background-color: #F1F5FA;
+    selection-background-color: #3D80DF;
+    selection-color: white;
+    color: black;
+}
+
+/*Will Not Work*/
+/* 
+NifTreeView::item
+{
+}
+
+NifTreeView::item:has-children
+{
+}
+*/
+
+/*
+NifTreeView QHeaderView::section {
+    background: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(67, 67, 67, 255), stop:0.039823 rgba(85, 85, 85, 255), stop:0.103245 rgba(102, 102, 102, 255), stop:0.171091 rgba(106, 106, 106, 255));
+    color: white;
+    padding: 2px 0px 2px 4px;
+    border: 1px solid #6c6c6c;
+	font: 12px normal "Segoe UI";
+}*/
+
+NifTreeView QHeaderView::section {
+    background: #f5f5f5;
+	color: #333;
+	padding: 0px 0px 4px 4px;
+	border: 1px solid transparent;
+	border-right: 1px solid #eaeaea;
+	border-bottom: 1px solid #e1e1e1;
+	font: 12px normal "Segoe UI";
+}
+/*
+NifTreeView QHeaderView::section:first {
+	border-left: 1px solid #eaeaea;
+}*/
+
+QDockWidget {
+	background: #f5f5f5;
+}
+
+QDockWidget > QWidget { background: #f5f5f5; }
+
+QDockWidget::close-button, QDockWidget::float-button {
+    border: 0px solid transparent;
+    background: transparent;
+    padding: 0px;
+}
+
+QDockWidget::close-button:hover, QDockWidget::float-button:hover {
+    border: 0px solid transparent;
+    background: transparent;
+    padding: 0px;
+}
+
+QDockWidget::close-button {
+
+}
+
+QDockWidget::float-button {
+
+}
+
+
+QDockWidget::close-button:pressed, QDockWidget::float-button:pressed {
+    padding: 1px -1px -1px 1px;
+}
+
+QDockWidget::title {
+	padding: 2px 0px 0px 6px;
+	background: #f5f5f5;
+	border: 0px solid #f5f5f5;
+}
+
+QDockWidget QAbstractScrollArea {
+	margin: 0px;
+	padding: 0px;
+	background: #fefefe;
+	padding-bottom: 1px;
+}
+
+QDockWidget QAbstractScrollArea::corner { background: transparent; border-radius: 2px; }
+
+
+QScrollBar:vertical {
+	margin: 0px 0px 5px 0px;
+	padding: 2px 1px 2px 1px;
+	border: 0px solid #FFFFFF;
+	border-radius: 2px;
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0.44 rgba(255, 255, 255, 0), stop:0.45 rgba(200, 200, 200, 255), stop:0.55 rgba(200, 200, 200, 255), stop:0.56 rgba(255, 255, 255, 0));
+	width: 12px;
+}
+
+QScrollBar:vertical:hover {
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0.44 rgba(255, 255, 255, 0), stop:0.45 rgba(0, 203, 243, 128), stop:0.55 rgba(0, 203, 243, 128), stop:0.56 rgba(255, 255, 255, 0));
+}
+
+QScrollBar:top-arrow:vertical, QScrollBar::bottom-arrow:vertical { background: transparent; }
+
+QScrollBar::handle:vertical { background: #777777; margin: 0px 1px 0px 1px; border-radius: 4px; border: none; min-height: 25px; }
+
+QScrollBar::handle:vertical:hover {
+	background: rgba(0, 203, 243, 255);	
+}
+
+QScrollBar::add-line:vertical { 
+border-style: none; border: 0px solid #FFFFFF; background: transparent; width: 0px; subcontrol-position: right; subcontrol-origin: margin; 
+}
+QScrollBar::sub-line:vertical {
+border-style: none; border: 0px solid #FFFFFF; background: transparent; width: 0px; subcontrol-position: left; subcontrol-origin: margin;
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical { background: transparent; }
+
+QScrollBar:horizontal { 
+	margin: 0px 5px 0px 0px;
+	padding: 0px 2px 1px 2px;
+	border: 0px solid #FFFFFF;
+	border-style: none;
+	border-radius: 2px;
+	background: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1.0, stop:0.44 rgba(255, 255, 255, 0), stop:0.45 rgba(200, 200, 200, 255), stop:0.55 rgba(200, 200, 200, 255), stop:0.56 rgba(255, 255, 255, 0));
+	height: 12px;
+}
+
+QScrollBar:horizontal:hover {
+	background: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1.0, stop:0.44 rgba(255, 255, 255, 0), stop:0.45 rgba(0, 203, 243, 128), stop:0.55 rgba(0, 203, 243, 128), stop:0.56 rgba(255, 255, 255, 0));
+}
+
+QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal { background: transparent; }
+
+QScrollBar::handle:horizontal { background: #777777; min-width: 20px; margin: 2px 0px 1px 0px; border-radius: 4px; border: none; }
+
+QScrollBar::handle:horizontal:hover {
+	background: rgba(0, 203, 243, 255);
+}
+
+QScrollBar::add-line:horizontal { 
+border-style: none; border: 0px solid #FFFFFF; background: transparent; width: 0px; subcontrol-position: right; subcontrol-origin: margin; 
+}
+QScrollBar::sub-line:horizontal {
+border-style: none; border: 0px solid #FFFFFF; background: transparent; width: 0px; subcontrol-position: left; subcontrol-origin: margin;
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal { background: transparent; }
+
+
+QSlider::groove:horizontal {
+	border: 1px solid #999999;
+	height: 8px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #B1B1B1, stop:1 #c4c4c4);
+	margin: 2px 0;
+}
+
+QSlider::handle:horizontal {
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #b4b4b4, stop:1 #8f8f8f);
+	border: 1px solid #5c5c5c;
+	width: 18px;
+	margin: -2px 0; /* handle is placed by default on the contents rect of the groove. Expand outside the groove */
+	border-radius: 1px;
+}
+QSlider::groove:horizontal:disabled {
+	border: 1px solid #CCCCCC;
+	height: 8px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #DADADA, stop:1 #F1F1F1);
+	margin: 2px 0;
+}
+
+QSlider::handle:horizontal:disabled {
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #DDDDDD, stop:1 #FFFFFF);
+	border: 1px solid #afafaf;
+	width: 18px;
+	margin: -2px 0; /* handle is placed by default on the contents rect of the groove. Expand outside the groove */
+	border-radius: 1px;
+}
+			
+/*
+    Stylish tooltips
+
+
+QToolTip
+{
+    opacity: 223;
+    color: steelblue;
+    border: 1px solid steelblue;
+    border-radius: 5px;
+    padding: 4px;
+    background: ghostwhite;
+	font-size: 10px;
+}*/
+
+/*
+    Make the disabled rows of the table views more distinguishable
+*/
+
+QTreeView:disabled
+{
+    background: #C0C0C0;
+    alternate-background-color: #C0C0C0;
+    color: #7D7D7D;
+}
+
+
+/*
+    Give the fileselectors a green tint on success and a red one on error
+*/
+
+FileSelector[state="0"] > QLineEdit
+{
+    background-color: auto;
+}
+
+FileSelector[state="1"] > QLineEdit
+{
+    background-color: #cfc;
+}
+
+FileSelector[state="2"] > QLineEdit
+{
+    background-color: #fcc;
+}
+
+
+/*
+    Add a border to the FloatSliderEditBoxes
+*/
+FloatSliderEditBox
+{
+    border: 1px solid black;
+}
+
+/*
+SettingsDialog QTabWidget > QWidget
+{
+	background: #f5f5f5;
+}
+*/

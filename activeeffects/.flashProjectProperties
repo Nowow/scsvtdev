@@ -1,0 +1,34 @@
+﻿<projectDescription>
+	<id>1238637846607</id>
+	<name>~activeeffects</name>
+	<asVersion>0</asVersion>
+	<boundTemplate>file:///C|/Users/RealRobert/AppData/Local/Adobe/Flash CS4/en/Configuration/Project/templates/boundClass_as3.as</boundTemplate>
+	<classTemplate>file:///C|/Users/RealRobert/AppData/Local/Adobe/Flash CS4/en/Configuration/Project/templates/standardClass_as3.as</classTemplate>
+	<classPath>.</classPath>
+	<rootURI>C:\Users\RealRobert\Documents\activeeffects</rootURI>
+	<flexSDK/>
+	<sources editable="false"/>
+	<libraries editable="false"/>
+	<externalLibraries editable="false"/>
+	<compileList editable="false">
+		<uri label="~activeeffects.fla">file:///C|/Users/RealRobert/Documents/activeeffects/~activeeffects.fla</uri>
+	</compileList>
+	<defaultApp>file:///C|/Users/RealRobert/Documents/activeeffects/~activeeffects.fla</defaultApp>
+	<recentFiles editable="false">
+		<uri label="ActiveEffectsGroup.as">file:///C|/Users/RealRobert/Documents/activeeffects/skyui/widgets/activeeffects/ActiveEffectsGroup.as</uri>
+		<uri label="EventDispatcher.as">file:///C|/Users/RealRobert/Documents/activeeffects/gfx/events/EventDispatcher.as</uri>
+		<uri label="Tween.as">file:///C|/Users/RealRobert/Documents/activeeffects/skyui/util/Tween.as</uri>
+		<uri label="Tween.as">file:///C|/Users/RealRobert/Documents/activeeffects/mx/transitions/Tween.as</uri>
+		<uri label="None.as">file:///C|/Users/RealRobert/Documents/activeeffects/mx/transitions/easing/None.as</uri>
+		<uri label="WidgetBase.as">file:///C|/Users/RealRobert/Documents/activeeffects/skyui/widgets/WidgetBase.as</uri>
+		<uri label="GlobalFunc.as">file:///C|/Users/RealRobert/Documents/activeeffects/Shared/GlobalFunc.as</uri>
+		<uri label="ActiveEffectsWidget.as">file:///C|/Users/RealRobert/Documents/activeeffects/skyui/widgets/activeeffects/ActiveEffectsWidget.as</uri>
+		<uri label="ActiveEffect.as">file:///C|/Users/RealRobert/Documents/activeeffects/skyui/widgets/activeeffects/ActiveEffect.as</uri>
+		<uri label="Delegate.as">file:///C|/Users/RealRobert/Documents/activeeffects/mx/utils/Delegate.as</uri>
+		<uri label="EffectIconMap.as">file:///C|/Users/RealRobert/Documents/activeeffects/skyui/util/EffectIconMap.as</uri>
+		<uri label="Magic.as">file:///C|/Users/RealRobert/Documents/activeeffects/skyui/defines/Magic.as</uri>
+		<uri label="Actor.as">file:///C|/Users/RealRobert/Documents/activeeffects/skyui/defines/Actor.as</uri>
+		<uri label="Debug.as">file:///C|/Users/RealRobert/Documents/activeeffects/skyui/util/Debug.as</uri>
+	</recentFiles>
+	<locations editable="false"/>
+</projectDescription>

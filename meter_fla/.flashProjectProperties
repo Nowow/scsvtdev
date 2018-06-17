@@ -1,0 +1,30 @@
+﻿<projectDescription>
+	<id>1238637846607</id>
+	<name>~meter</name>
+	<asVersion>0</asVersion>
+	<boundTemplate>file:///C|/Users/RealRobert/AppData/Local/Adobe/Flash CS4/en/Configuration/Project/templates/boundClass_as3.as</boundTemplate>
+	<classTemplate>file:///C|/Users/RealRobert/AppData/Local/Adobe/Flash CS4/en/Configuration/Project/templates/standardClass_as3.as</classTemplate>
+	<classPath>.</classPath>
+	<rootURI>C:\Users\RealRobert\Documents\meter</rootURI>
+	<flexSDK/>
+	<sources editable="false"/>
+	<libraries editable="false"/>
+	<externalLibraries editable="false"/>
+	<compileList editable="false">
+		<uri label="~meter.fla">file:///C|/Users/RealRobert/Documents/meter/~meter.fla</uri>
+	</compileList>
+	<defaultApp>file:///C|/Users/RealRobert/Documents/meter/~meter.fla</defaultApp>
+	<recentFiles editable="false">
+		<uri label="WidgetBase.as">file:///C|/Users/RealRobert/Documents/meter/skyui/widgets/WidgetBase.as</uri>
+		<uri label="GlobalFunc.as">file:///C|/Users/RealRobert/Documents/meter/Shared/GlobalFunc.as</uri>
+		<uri label="TweenCore.as">file:///C|/Users/RealRobert/Documents/meter/com/greensock/core/TweenCore.as</uri>
+		<uri label="SimpleTimeline.as">file:///C|/Users/RealRobert/Documents/meter/com/greensock/core/SimpleTimeline.as</uri>
+		<uri label="TweenLite.as">file:///C|/Users/RealRobert/Documents/meter/com/greensock/TweenLite.as</uri>
+		<uri label="PropTween.as">file:///C|/Users/RealRobert/Documents/meter/com/greensock/core/PropTween.as</uri>
+		<uri label="Linear.as">file:///C|/Users/RealRobert/Documents/meter/com/greensock/easing/Linear.as</uri>
+		<uri label="MeterWidget.as">file:///C|/Users/RealRobert/Documents/meter/skyui/widgets/meter/MeterWidget.as</uri>
+		<uri label="Meter.as">file:///C|/Users/RealRobert/Documents/meter/skyui/components/Meter.as</uri>
+		<uri label="ColorFunctions.as">file:///C|/Users/RealRobert/Documents/meter/skyui/util/ColorFunctions.as</uri>
+	</recentFiles>
+	<locations editable="false"/>
+</projectDescription>

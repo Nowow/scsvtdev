@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="ascii"?>
+<hkpackfile classversion="8" contentsversion="hk_2010.2.0-r1" toplevelobject="#0038">
+
+	<hksection name="__data__">
+
+		<hkobject name="#0039" class="hkaSkeleton" signature="0x366e8220">
+			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
+			<!-- referenceCount SERIALIZE_IGNORED -->
+			<hkparam name="name">Armature</hkparam>
+			<hkparam name="parentIndices" numelements="36">
+				-1 0 1 2 3 4 5 6 7 8 9 9 11 9 13 9
+				15 9 17 6 3 20 21 22 23 24 25 25 27 25 29 25
+				31 25 33 22
+			</hkparam>
+			<hkparam name="bones" numelements="36">
+				<hkobject>
+					<hkparam name="name">Armature</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">BASE</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC Root [Root]</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC Hub01</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC LCollarbone</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC LUpArm1</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC LUpArm2</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC LForearm1</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC LForearm2</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC LHand</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC LThumb1</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC LFinger11</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC LFinger12</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC LFinger21</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC LFinger22</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC LFinger31</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC LFinger32</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC LFinger41</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC LFinger42</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC LElbow</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC RCollarbone</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC RUpArm1</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC RUpArm2</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC RForearm1</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC RForearm2</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC RHand</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC RThumb1</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC RFinger11</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC RFinger12</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC RFinger21</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC RFinger22</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC RFinger31</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC RFinger32</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC RFinger41</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC RFinger42</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="name">NPC RElbow</hkparam>
+					<hkparam name="lockTranslation">false</hkparam>
+				</hkobject>
+			</hkparam>
+			<hkparam name="referencePose" numelements="36">
+				(0.000000 0.000000 0.000000)(0.000000 0.000000 0.000000 1.000000)(1.000000 1.000000 1.000000)
+				(0.000000 0.000000 -0.200000)(0.683013 -0.183013 0.683013 0.183013)(1.000000 1.000000 1.000000)
+				(0.200000 0.000000 -0.000000)(0.000000 0.000000 0.000000 1.000000)(1.000000 1.000000 1.000000)
+				(10.679022 9.691240 5.595221)(0.286586 0.703116 0.075024 0.646428)(1.000000 1.000000 1.000000)
+				(-6.808162 -12.756191 2.567398)(0.135162 -0.037332 -0.233320 0.962237)(1.000000 1.000000 1.000000)
+				(-0.000023 17.864588 -1.234752)(-0.170702 0.073134 -0.482192 0.856156)(1.000000 1.000000 1.000000)
+				(-0.000040 12.260057 -7.647258)(0.051720 0.007972 -0.022457 0.998377)(1.000000 1.000000 1.000000)
+				(0.000076 12.261484 -7.645001)(-0.010271 -0.220095 0.229522 0.948036)(1.000000 1.000000 1.000000)
+				(0.000490 15.581455 13.799866)(-0.002230 0.062077 0.055203 0.996541)(1.000000 1.000000 1.000000)
+				(-0.000217 15.519489 13.869503)(-0.220673 -0.610801 -0.178567 0.739148)(1.000000 1.000000 1.000000)
+				(2.650890 9.600880 5.072395)(-0.049959 0.690457 -0.140131 0.707910)(0.500000 0.500000 0.500000)
+				(2.633467 10.637100 8.940132)(0.048774 0.309437 -0.110710 0.943193)(1.000000 1.000000 1.000000)
+				(-0.000572 11.794731 9.887932)(0.090368 -0.034592 0.194229 0.976172)(1.000000 1.000000 1.000000)
+				(-0.540916 10.618191 9.304497)(0.095874 0.042731 0.053621 0.993029)(1.000000 1.000000 1.000000)
+				(0.000063 27.265984 10.948555)(0.035636 -0.035617 0.237093 0.970180)(1.000000 1.000000 1.000000)
+				(-3.470848 10.114723 6.893936)(0.618545 0.016744 0.314176 0.720010)(1.000000 1.000000 1.000000)
+				(0.001495 16.469978 -20.987158)(0.042434 0.308679 0.019155 0.950026)(1.000000 1.000000 1.000000)
+				(-4.571428 6.412224 3.300087)(0.574425 0.225967 0.645541 0.449724)(1.000000 1.000000 1.000000)
+				(0.000435 -0.630505 -21.081841)(0.050717 0.184974 -0.078922 0.978255)(1.000000 1.000000 1.000000)
+				(-0.784693 14.152100 -12.331308)(0.074142 -0.232635 0.138983 0.959723)(1.000000 1.000000 1.000000)
+				(6.808158 -12.756189 2.567400)(0.135162 0.037333 0.233322 0.962236)(1.000000 1.000000 1.000000)
+				(0.000011 17.864584 -1.234751)(0.170701 0.073135 -0.482193 -0.856156)(1.000000 1.000000 1.000000)
+				(0.000065 12.260053 -7.647255)(0.051720 -0.007972 0.022461 0.998377)(1.000000 1.000000 1.000000)
+				(0.000137 12.261489 -7.644981)(0.010273 -0.220095 0.229513 -0.948038)(1.000000 1.000000 1.000000)
+				(0.000095 15.581409 13.799904)(-0.002231 -0.062075 -0.055223 0.996540)(1.000000 1.000000 1.000000)
+				(0.000210 15.519485 13.869527)(0.220674 -0.610800 -0.178567 -0.739148)(1.000000 1.000000 1.000000)
+				(-2.650887 9.600853 5.072372)(-0.049959 -0.690470 0.140132 0.707897)(0.500000 0.500000 0.500000)
+				(-2.633472 10.637081 8.940117)(0.048779 -0.309441 0.110706 0.943192)(1.000000 1.000000 1.000000)
+				(0.000521 11.794815 9.887794)(-0.090368 -0.034593 0.194224 -0.976173)(1.000000 1.000000 1.000000)
+				(0.540909 10.618172 9.304482)(-0.095873 0.042743 0.053622 -0.993029)(1.000000 1.000000 1.000000)
+				(0.000162 27.265991 10.948586)(0.035628 0.035652 -0.237089 0.970180)(1.000000 1.000000 1.000000)
+				(3.470854 10.114708 6.893913)(-0.618488 0.016706 0.314115 -0.720087)(1.000000 1.000000 1.000000)
+				(0.002506 16.473793 -20.984203)(0.042452 -0.308682 -0.019171 0.950024)(1.000000 1.000000 1.000000)
+				(4.571423 6.412193 3.300072)(-0.574438 0.225956 0.645544 -0.449708)(1.000000 1.000000 1.000000)
+				(-0.000092 -0.630634 -21.081850)(0.050718 -0.184981 0.078954 0.978251)(1.000000 1.000000 1.000000)
+				(0.784950 14.152104 -12.331299)(0.074147 0.232637 -0.139008 0.959718)(1.000000 1.000000 1.000000)
+			</hkparam>
+			<hkparam name="referenceFloats" numelements="0"></hkparam>
+			<hkparam name="floatSlots" numelements="0"></hkparam>
+			<hkparam name="localFrames" numelements="0"></hkparam>
+		</hkobject>
+
+		<hkobject name="#0040" class="hkaAnimationContainer" signature="0x8dc20333">
+			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
+			<!-- referenceCount SERIALIZE_IGNORED -->
+			<hkparam name="skeletons" numelements="1">
+				#0039
+			</hkparam>
+			<hkparam name="animations" numelements="0"></hkparam>
+			<hkparam name="bindings" numelements="0"></hkparam>
+			<hkparam name="attachments" numelements="0"></hkparam>
+			<hkparam name="skins" numelements="0"></hkparam>
+		</hkobject>
+
+		<hkobject name="#0038" class="hkRootLevelContainer" signature="0x2772c11e">
+			<hkparam name="namedVariants" numelements="1">
+				<hkobject>
+					<hkparam name="name">Animation Container</hkparam>
+					<hkparam name="className">hkaAnimationContainer</hkparam>
+					<hkparam name="variant">#0040</hkparam>
+				</hkobject>
+			</hkparam>
+		</hkobject>
+
+	</hksection>
+
+</hkpackfile>

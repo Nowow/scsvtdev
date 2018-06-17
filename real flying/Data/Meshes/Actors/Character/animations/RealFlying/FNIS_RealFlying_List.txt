@@ -1,0 +1,7 @@
+' Real Flying
+Version V1.00
+AnimVar iRealFlying_State INT32 1
+b -B1.3,h RealFlying_Forward FlyForward.hkx
+b -B1.3,h RealFlying_ForwardUp FlyForwardUp.hkx
+b -B1.3,h RealFlying_ForwardDown FlyForwardDown.hkx
+b -B1.3,h RealFlying_ForwardAlt FlyForwardAlt.hkx
