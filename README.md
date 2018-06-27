@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Sacrosanct and Vampiric Thirst ripoff Vampire Overhaul
 
 ##Vampire energy
@@ -12,7 +11,3 @@
 ###Fluid/Discrete vampire enegry 
 
 Should be fluid cos easier to make widget for and can allows draining effect
-=======
-# scsvtdev
-scsvt dev
->>>>>>> 37837c8366b1fbe1469e4a92a317d885332ddc73
