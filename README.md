@@ -5,11 +5,13 @@
 * 4 hunger levels
 * Age system
 * Reverse progression, but with quirks
-** Staying satisfied = being more powerful and having broader variety of options
-** Higher hunger = losing access your access to your feats rather than getting flat weaker and setting gameplay objectives on feeding, whilst providing means to do so
-* 4 stage hunger means hate, probably vampire bestiality thats only cured by feeding on a human corpse
+* Staying satisfied = being more powerful and having broader variety of options
 * Curse can be lifted by a perk or, preferably, an Enai-like quest on feeding on the most powerful
 
+### Reverse progression
+
+* Higher hunger = losing access your access to your feats rather than getting flat weaker and setting gameplay objectives on feeding, whilst providing means to do so
+* 4 stage hunger means hate, probably vampire bestiality thats only cured by feeding on a human corpse
 
 ## Vampire lord
 
