@@ -56,6 +56,7 @@
 
 * Achievable feat of flying in both human and vampire lord form
 * Vampire lord flying in bat 
+* Provided by Real Flying (with Gliding and Collisions)
 
 #### Misc
 
