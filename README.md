@@ -34,6 +34,7 @@
 * Can voluntarily drop a hunger level, reset energy meter
 * Regenerates to 50% out of combat  
 * Should be fluid cos easier to make widget for and can allows draining effect
+* Vampiric Drain (both hum and VL) replenish meter
 
 
 ### Vampire magic n skills
